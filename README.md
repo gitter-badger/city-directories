@@ -77,3 +77,16 @@ Example command from wiki:
       --train_listfile ~/tesstutorial/engtrain/eng.training_files.txt \
       --eval_listfile ~/tesstutorial/engeval/eng.training_files.txt \
       --max_iterations 5000 &>~/tesstutorial/engoutput/basetrain.log
+
+Now, try this ourselves:
+
+    cd wilson-training-1852
+    lstmtraining -U ../langdata/Latin.unicharset \
+--script_dir ????
+    --debug_interval 100 \
+    --net_spec '[1,36,0,1 Ct5,5,16 Mp3,3 Lfys64 Lfx128 Lrx128 Lfx256 O1c105]' \
+    --model_output ../engoutput/base
+--train_listfile ???
+--eval_listfile  ???
+    --max_iterations 5000
+
