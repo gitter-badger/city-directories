@@ -47,3 +47,5 @@ https://github.com/tesseract-ocr/tesseract/wiki/Compiling#macos-with-homebrew
 ### Running on single page
 
 ### Training
+
+ - [Training data from Wilson directory with box file at word level](https://github.com/nypl-spacetime/city-directories/tree/master/wilson-training-1852)
