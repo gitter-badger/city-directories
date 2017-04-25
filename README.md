@@ -1,6 +1,5 @@
 # City Directories
 
-
 - Which OCR engine?
   - How to train Tesseract 4?
 - Field detection: CRF or something similar? Or just regular expressions?
@@ -38,3 +37,13 @@ These files contain small bounding box PNGs which we use to correct OCR mistakes
 I've experimented with using conditional random fields to extract the data from the OCR results: see https://github.com/nypl-spacetime/run-crf and https://github.com/nypl-spacetime/label-fields. Using this tool, me and my colleagues labeled fields in many OCR output lines, the run-crf tool reads those labels (from API: http://brick-by-brick.herokuapp.com/tasks/label-fields/submissions/all.ndjson), and uses CRF++ to train a CRF model. Works pretty well, but maybe simple regex works better... :)
 
 For information about Space/Time data model, see https://GitHub.com/nypl-spacetime/ontology
+
+## Tesseract
+
+### Installing
+
+https://github.com/tesseract-ocr/tesseract/wiki/Compiling#macos-with-homebrew
+
+### Running on single page
+
+### Training
