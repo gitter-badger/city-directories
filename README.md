@@ -38,6 +38,12 @@ I've experimented with using conditional random fields to extract the data from 
 
 For information about Space/Time data model, see https://GitHub.com/nypl-spacetime/ontology
 
+### Resources
+
+ - [List of occupations from IPUMS](https://github.com/nmwolf/wilson52-training-lines/blob/master/ipums-occ-list.txt)
+ - [List of last names from 1852 Wilson directory](https://github.com/nmwolf/wilson52-training-lines/blob/master/lastnames-lowercase)
+ - [List of first names from 1852 Wilson directory](https://github.com/nmwolf/wilson52-training-lines/blob/master/firstnames-lowercase)
+
 ## Tesseract
 
 ### Installing
