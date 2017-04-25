@@ -1,5 +1,12 @@
 # City Directories
 
+
+- Which OCR engine?
+  - How to train Tesseract 4?
+- Field detection: CRF or something similar? Or just regular expressions?
+- Create dictionaries of names, professions and street
+  - We can use this dataset for list of street names: http://spacetime.nypl.org/#data-nyc-streets
+
 ## Samples
 
 I've uploaded some sample pages from city directories to S3, as well as one complete volume:
