@@ -44,6 +44,7 @@ For information about Space/Time data model, see https://GitHub.com/nypl-spaceti
  - [List of occupations from Wilson Directory](https://github.com/nmwolf/wilson52-training-lines/blob/master/wilson-occ-list.txt)
  - [List of last names from 1852 Wilson directory](https://github.com/nmwolf/wilson52-training-lines/blob/master/lastnames-lowercase)
  - [List of first names from 1852 Wilson directory](https://github.com/nmwolf/wilson52-training-lines/blob/master/firstnames-lowercase)
+ - [List of streetname abbreviation pairs with standard version](https://github.com/nmwolf/wilson52-training-lines/blob/master/streetname-abbr-pairs.txt)
 
 ## Tesseract
 
