@@ -46,6 +46,12 @@ https://github.com/tesseract-ocr/tesseract/wiki/Compiling#macos-with-homebrew
 
 ### Running on single page
 
+    tesseract --oem 2 /path/to/page1.jpg page1.hocr hocr
+
 ### Training
 
  - [Training data from Wilson directory with box file at word level](https://github.com/nypl-spacetime/city-directories/tree/master/wilson-training-1852)
+
+Create boxfile from image:
+
+    tesseract /Users/bertspaan/data/city-directories/complete/1854-55/large/0412_56753997g.jpg batch.nochop makebox
