@@ -56,8 +56,24 @@ https://github.com/tesseract-ocr/tesseract/wiki/Compiling#macos-with-homebrew
 
 ### Training
 
- - [Training data from Wilson directory with box file at word level](https://github.com/nypl-spacetime/city-directories/tree/master/wilson-training-1852)
+#### Create boxfile
 
 Create boxfile from image:
 
-    tesseract /Users/bertspaan/data/city-directories/complete/1854-55/large/0412_56753997g.jpg batch.nochop makebox
+    tesseract 0412_56753997g.jpg batch.nochop makebox
+
+#### Training from scratch
+
+- [Training data from Wilson directory with box file at word level](https://github.com/nypl-spacetime/city-directories/tree/master/wilson-training-1852)
+
+Wiki: https://github.com/tesseract-ocr/tesseract/wiki/TrainingTesseract-4.00#training-from-scratch
+
+Example command from wiki:
+
+    lstmtraining -U ~/tesstutorial/engtrain/eng.unicharset \
+      --script_dir ../langdata --debug_interval 100 \
+      --net_spec '[1,36,0,1 Ct5,5,16 Mp3,3 Lfys64 Lfx128 Lrx128 Lfx256 O1c105]' \
+      --model_output ~/tesstutorial/engoutput/base \
+      --train_listfile ~/tesstutorial/engtrain/eng.training_files.txt \
+      --eval_listfile ~/tesstutorial/engeval/eng.training_files.txt \
+      --max_iterations 5000 &>~/tesstutorial/engoutput/basetrain.log
