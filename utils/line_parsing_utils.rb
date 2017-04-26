@@ -14,6 +14,9 @@
 ## 7. Take your list of labeled tokens and assemble them into an
 ##      actual record, using consolidate_classes()
 
+## TODO: Add function for merging subsequent address tokens (4/26/17)
+## TODO: Actually organize these functions into something coherent... (4/26/17)
+
 #### Useful Procedures ####
 
 require 'JSON'
