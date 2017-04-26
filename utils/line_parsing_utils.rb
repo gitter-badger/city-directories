@@ -28,6 +28,7 @@ end
 
 jobs = File.read('/Users/stephen/Documents/nypl-directories/occupations_data/ipums-occ-list.txt').split("\n")
 jobs.concat(File.read('/Users/stephen/Documents/nypl-directories/occupations_data/wilson-occ-list.txt').split("\n"))
+jobs.concat(["publisher"])
 
 parsed_lines = lines.map { |line| [line, parse_line_elements(line)] }
 
@@ -50,6 +51,12 @@ end
 
 #### End Procedures ####
 
+## Consolidates all of the below functions,
+## and produces a labeled record from an OCR
+## JSON line
+def process_line(original_line, jobs)
+  consolidate_classes(original_line, classify_decisions(category_parsing(parse_line_elements(original_line), jobs)))
+end
 
 ## Turns list of classes into a merged record
 def consolidate_classes(original_line, list_of_classes)
@@ -86,7 +93,11 @@ def consolidate_classes(original_line, list_of_classes)
               unless record[:attributes_parsed][:subject].count < 1
                 record[:attributes_parsed][:subject][0][:occupation] = 'widow'
               end
-              attach_to_next(list_of_classes, index, :name_component, [{:type => 'deceased spouse of primary'}])
+              deceased_name = look_for_name_of_deceased(list_of_classes,index)
+              unless deceased_name.nil?
+                record[:attributes_parsed][:subject] << {:value => deceased_name, :type => 'deceased spouse of primary'}
+              end
+              #attach_to_next(list_of_classes, index, :name_component, [{:type => 'deceased spouse of primary'}])
             when "h"
               attach_to_next(list_of_classes, index, :address_component, [{:type => 'home'}])
             when "r"
@@ -101,13 +112,44 @@ def consolidate_classes(original_line, list_of_classes)
               loc[k] = v
             end
           end
-          record[:attributes_parsed][:location] << loc
+          unless merge_if_directly_subsequent_is_alike(list_of_classes, index, classed_token)
+            record[:attributes_parsed][:location] << loc
+          end
         else
       end
     end ## indices after 0
   end ## loop of classes
+
   return record
 end
+
+def merge_if_directly_subsequent_is_alike(list_of_classes, current_index, current_classed_token)
+  if current_index + 1 < list_of_classes.count
+    next_class = list_of_classes[current_index + 1]
+    if next_class[1][0] == current_classed_token[1][0] ## i.e. they are the same, address followed by address
+      next_class[0] = "#{current_classed_token[0]} #{next_class[0]}"
+      next_class.concat(current_classed_token[2..-1])
+      return true
+    end
+  end
+  return false
+end
+
+## If a 'wid' predicate is found, we make sure
+## we can interpret the following token as a :name_component
+## for the deceased
+def look_for_name_of_deceased(list_of_classes, current_index)
+  if current_index + 1 < list_of_classes.count
+    next_class = list_of_classes[current_index + 1]
+    if next_class[1][0] == :name_component || next_class[1][1] <= 0.5
+       ## we check if the next class is either a name_component, or had a low confidence
+       next_class[1][0] = :already_considered
+       return next_class[0]
+    end
+  end
+  return nil
+end
+
 
 ## Usage: attach_to_next(:address_component, [{:position => 'rear'}])
 def attach_to_next(class_list, current_index, match_class, attributes)
@@ -123,6 +165,7 @@ def attach_to_next(class_list, current_index, match_class, attributes)
   end
 end
 
+## Tokenize
 def parse_line_elements(line)
   text_field = normalize_synonyms(line['text'])
   elements = text_field.split(/(,|\.\s)/).map { |x| x.strip }
@@ -196,6 +239,9 @@ def category_parsing(ordered_array_of_tokens, jobs)
       else
         decisions[index][:votes] << {:job_component => -1.0}
       end
+      if no_white_space?(token)
+        decisions[index][:votes] << {:address_component => 0.5}
+      end
     end # end (not short)
   end ## loop
   decisions
@@ -221,7 +267,8 @@ def most_likely_class(decisions_for_single_token)
       :job_component => 0,
       :name_component => 0,
       :address_component => 0,
-      :predicate => 0
+      :predicate => 0,
+      :ambiguous => 0.1,
   }
   decisions_for_single_token[:votes].each do |vote|
     vote.each do |type, score|
@@ -241,7 +288,11 @@ def contains_numbers?(token)
 end
 
 def matches_cardinal_dir?(token)
-  !/^(s|S|w|W|e|E|n|N).*$/.match(token).nil?
+  !/^(s|S|w|W|e|E|n|N).{0,1}$/.match(token).nil?
+end
+
+def no_white_space?(token)
+  /^\S*(\s)+\S*$/.match(token).nil?
 end
 
 def is_short?(token)
