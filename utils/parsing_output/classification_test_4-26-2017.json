@@ -1,0 +1,5902 @@
+[
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        932,
+        1401,
+        1525,
+        1435
+      ],
+      "id": "206.932.1401",
+      "text": "Curran Peter, laborer. h. 2 Birmingham"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curran Peter",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "2",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        932,
+        1370,
+        1548,
+        1401
+      ],
+      "id": "206.932.1370",
+      "text": "Curran Sarah, wid. Richard, h. r. 7 Sixth"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curran Sarah",
+          "type": "primary",
+          "occupation": "widow"
+        }
+      ],
+      "location": [
+        {
+          "value": "7",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        1334,
+        1719,
+        1375
+      ],
+      "id": "206.933.1334",
+      "text": "Curran Thomas, brushmaker, 273 Greenwich, h. Lqtn gocrgyk"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curran Thomas",
+          "type": "primary",
+          "occupation": "brushmaker"
+        }
+      ],
+      "location": [
+        {
+          "value": "273 Greenwich"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        1270,
+        1716,
+        1307
+      ],
+      "id": "206.933.1270",
+      "text": "Curran Thomas, segars. 360 Pearl, h. 360 Pearl"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curran Thomas",
+          "type": "primary",
+          "occupation": "segars"
+        }
+      ],
+      "location": [
+        {
+          "value": "360 Pearl"
+        },
+        {
+          "value": "360 Pearl",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        932,
+        1239,
+        1523,
+        1272
+      ],
+      "id": "206.932.1239",
+      "text": "Curran William. weaver, h. 76 W. 18th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curran William",
+          "type": "primary",
+          "occupation": "weaver"
+        }
+      ],
+      "location": [
+        {
+          "value": "76",
+          "type": "home"
+        },
+        {
+          "value": "18th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        932,
+        1205,
+        1641,
+        1238
+      ],
+      "id": "206.932.1205",
+      "text": "Curran William B. corker, h. 288 Seventh"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curran William",
+          "type": "primary",
+          "occupation": "corker"
+        }
+      ],
+      "location": [
+        {
+          "value": "288 Seventh",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        1173,
+        1580,
+        1206
+      ],
+      "id": "206.933.1173",
+      "text": "Curren Edwardd, slioemaker, h. 297 E. 14th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curren Edwardd",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "297",
+          "type": "home"
+        },
+        {
+          "value": "14th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        1141,
+        1762,
+        1172
+      ],
+      "id": "206.933.1141",
+      "text": "Curren Letitia, wid. James, wash. h. r. 307 W. 28th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curren Letitia",
+          "type": "primary",
+          "occupation": "James"
+        }
+      ],
+      "location": [
+        {
+          "value": "307",
+          "type": "home",
+          "position": "rear"
+        },
+        {
+          "value": "28th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        1107,
+        1521,
+        1140
+      ],
+      "id": "206.933.1107",
+      "text": "Curren Henry, laborer, hh. 87 E. 32d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curren Henry",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "87"
+        },
+        {
+          "value": "32d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        1076,
+        1685,
+        1113
+      ],
+      "id": "206.933.1076",
+      "text": "Curren Patrick B. teacher. 81 Mott. h. 10 Caroline"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curren Patrick",
+          "type": "primary",
+          "occupation": "teacher"
+        }
+      ],
+      "location": [
+        {
+          "value": "81 Mott"
+        },
+        {
+          "value": "10 Caroline",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        1042,
+        1684,
+        1074
+      ],
+      "id": "206.933.1042",
+      "text": "Curren Peter, barber, 344 Broome, h. Centre mkt."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curren Peter",
+          "type": "primary",
+          "occupation": "barber"
+        }
+      ],
+      "location": [
+        {
+          "value": "344 Broome"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        1008,
+        1541,
+        1041
+      ],
+      "id": "206.933.1008",
+      "text": "Curren Peter, machinist, h. 496 Houston"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curren Peter",
+          "type": "primary",
+          "occupation": "machinist"
+        }
+      ],
+      "location": [
+        {
+          "value": "496 Houston",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        934,
+        975,
+        1463,
+        1011
+      ],
+      "id": "206.934.975",
+      "text": "Curren Philip, smmith, h. 70 W. 37th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curren Philip",
+          "type": "primary",
+          "occupation": "smmith"
+        }
+      ],
+      "location": [
+        {
+          "value": "70",
+          "type": "home"
+        },
+        {
+          "value": "37th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        942,
+        1689,
+        976
+      ],
+      "id": "206.933.942",
+      "text": "Current Riaer Copper Mining Co. 16 Exchange p."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Current Riaer Copper Mining Co",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "16 Exchange p."
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        911,
+        1524,
+        945
+      ],
+      "id": "206.933.911",
+      "text": "Curren Robert E. baker, h. 131 W. 20th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curren Robert",
+          "type": "primary",
+          "occupation": "baker"
+        }
+      ],
+      "location": [
+        {
+          "value": "131",
+          "type": "home"
+        },
+        {
+          "value": "20th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        878,
+        1653,
+        910
+      ],
+      "id": "206.933.878",
+      "text": "Currey Henry R. carman, 20 Greenwich av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currey Henry",
+          "type": "primary",
+          "occupation": "carman"
+        }
+      ],
+      "location": [
+        {
+          "value": "20 Greenwich av."
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        844,
+        1604,
+        878
+      ],
+      "id": "206.933.844",
+      "text": "Cuhrey dames, packgian, h. r. 11 Desbrosses"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Cuhrey dames",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "11 Desbrosses",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        812,
+        1500,
+        845
+      ],
+      "id": "206.933.812",
+      "text": "Currey Michael, laborer, h. 69 Orange"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currey Michael",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "69 Orange",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        784,
+        1318,
+        813
+      ],
+      "id": "206.933.784",
+      "text": "Currie Ann. h. 19 Hubert"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currie Ann",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "19 Hubert",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        746,
+        1720,
+        792
+      ],
+      "id": "206.933.746",
+      "text": "Currie Archibald, account. 22 Ex pl. h. 163 Bridge, .oocfyrs"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currie Archibald",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "22 Ex pl"
+        },
+        {
+          "value": "163 Bridge",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        674,
+        1679,
+        716
+      ],
+      "id": "206.933.674",
+      "text": "CU RRIE CHARLES P. broker, h. 173 Twelfth"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "CU RRIE CHARLES",
+          "type": "primary",
+          "occupation": "broker"
+        }
+      ],
+      "location": [
+        {
+          "value": "173 Twelfth",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        647,
+        1484,
+        681
+      ],
+      "id": "206.933.647",
+      "text": "Currie Carllsle, shipjoiner, 375 Sixth"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currie Carllsle",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "375 Sixth"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        933,
+        615,
+        1562,
+        648
+      ],
+      "id": "206.933.615",
+      "text": "Currie George, shoemaker, h. 237 W. 17th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currie George",
+          "type": "primary",
+          "occupation": "shoemaker"
+        }
+      ],
+      "location": [
+        {
+          "value": "237",
+          "type": "home"
+        },
+        {
+          "value": "17th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        934,
+        582,
+        1721,
+        616
+      ],
+      "id": "206.934.582",
+      "text": "Currie Gilbert E editor, Whlte c. Centre, h. 17 Hudson"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currie Gilbert E editor",
+          "type": "primary",
+          "occupation": "Whlte"
+        }
+      ],
+      "location": [
+        {
+          "value": "17 Hudson",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        934,
+        516,
+        1535,
+        550
+      ],
+      "id": "206.934.516",
+      "text": "Currle Henry, distiller. h. 268 W. 35th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currle Henry",
+          "type": "primary",
+          "occupation": "distiller"
+        }
+      ],
+      "location": [
+        {
+          "value": "268",
+          "type": "home"
+        },
+        {
+          "value": "35th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        934,
+        485,
+        1514,
+        521
+      ],
+      "id": "206.934.485",
+      "text": "Currie dames, shoerniaker, 237 W. 17th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currie dames",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "237"
+        },
+        {
+          "value": "17th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        935,
+        451,
+        1625,
+        485
+      ],
+      "id": "206.935.451",
+      "text": "Currie James, 289 Broadway, h. 73 Hammond"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currie James",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "289 Broadway"
+        },
+        {
+          "value": "73 Hammond",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        934,
+        421,
+        1719,
+        455
+      ],
+      "id": "206.934.421",
+      "text": "Currie John H. chernuist 53 & 55 Trince, h. 101 Prince"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currie John",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "chernuist 53 & 55 Trince"
+        },
+        {
+          "value": "101 Prince",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        935,
+        353,
+        1550,
+        396
+      ],
+      "id": "206.935.353",
+      "text": "Currie Robert, plumber, h. r. 40 First av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currie Robert",
+          "type": "primary",
+          "occupation": "plumber"
+        }
+      ],
+      "location": [
+        {
+          "value": "40 First av.",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        934,
+        322,
+        1657,
+        364
+      ],
+      "id": "206.934.322",
+      "text": "Currie Wllliam, broker, 45 Wall, h 173 Twelfth"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currie Wllliam",
+          "type": "primary",
+          "occupation": "broker"
+        }
+      ],
+      "location": [
+        {
+          "value": "45 Wall"
+        },
+        {
+          "value": "173 Twelfth",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        935,
+        275,
+        1719,
+        324
+      ],
+      "id": "206.935.275",
+      "text": "CURRIER CHv,RLES, lithographer, 3 Spruce, h. Forroe"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "CURRIER CHv",
+          "type": "primary",
+          "occupation": "lithographer"
+        }
+      ],
+      "location": [
+        {
+          "value": "3"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        934,
+        223,
+        1665,
+        262
+      ],
+      "id": "206.934.223",
+      "text": "Currier Jeremiah S. machinist. h. 355 Second av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currier Jeremiah",
+          "type": "primary",
+          "occupation": "machinist"
+        }
+      ],
+      "location": [
+        {
+          "value": "355 Second av.",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        934,
+        191,
+        1722,
+        226
+      ],
+      "id": "206.934.191",
+      "text": "Currier John A. baker, 205 Green wich, h. 205 Green wiIch"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currier John",
+          "type": "primary",
+          "occupation": "baker"
+        }
+      ],
+      "location": [
+        {
+          "value": "205 Green wich"
+        },
+        {
+          "value": "205 Green wiIch",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 206,
+      "bbox": [
+        934,
+        127,
+        1682,
+        172
+      ],
+      "id": "206.934.127",
+      "text": "Currier John T. M. stevedore, h. 114 Stanton"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currier John",
+          "type": "primary",
+          "occupation": "stevedore"
+        }
+      ],
+      "location": [
+        {
+          "value": "114 Stanton",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        220,
+        2928,
+        1002,
+        2971
+      ],
+      "id": "207.220.2928",
+      "text": "CURRIER NATHANIEL, publsher, 152 Naseau, h. 137 Macdougsl"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "CURRIER NATHANIEL",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "152 Naseau"
+        },
+        {
+          "value": "137 Macdougsl",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        218,
+        2864,
+        1003,
+        2903
+      ],
+      "id": "207.218.2864",
+      "text": "Currier Nathaniel, broker, 92 Broadway, h. .'cys"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currier Nathaniel",
+          "type": "primary",
+          "occupation": "broker"
+        }
+      ],
+      "location": [
+        {
+          "value": "92 Broadway"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        219,
+        2832,
+        960,
+        2870
+      ],
+      "id": "207.219.2832",
+      "text": "Currler Robert B. boots, 59 Liberty, h. 48 W. 33d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Currler Robert",
+          "type": "primary",
+          "occupation": "boots"
+        }
+      ],
+      "location": [
+        {
+          "value": "59 Liberty"
+        },
+        {
+          "value": "48",
+          "type": "home"
+        },
+        {
+          "value": "33d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        218,
+        2794,
+        1001,
+        2837
+      ],
+      "id": "207.218.2794",
+      "text": "Curry Andrew, agent, 65 Chatham, h. W. 52d n. Sixth av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Andrew",
+          "type": "primary",
+          "occupation": "agent"
+        }
+      ],
+      "location": [
+        {
+          "value": "65 Chatham"
+        },
+        {
+          "value": "52d",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        217,
+        2730,
+        904,
+        2786
+      ],
+      "id": "207.217.2730",
+      "text": "Curry Ann, wid. James, grocer, h. 97½ Crange"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Ann",
+          "type": "primary",
+          "occupation": "grocer"
+        }
+      ],
+      "location": [
+        {
+          "value": "97½ Crange",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        218,
+        2697,
+        760,
+        2738
+      ],
+      "id": "207.218.2697",
+      "text": "Curry Ann, wid. Robert, h. 60 Ridge"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Ann",
+          "type": "primary",
+          "occupation": "widow"
+        }
+      ],
+      "location": [
+        {
+          "value": "60 Ridge",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        217,
+        2666,
+        790,
+        2704
+      ],
+      "id": "207.217.2666",
+      "text": "Curry Benjamin, painter, h. 401 Ninth"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Benjamin",
+          "type": "primary",
+          "occupation": "painter"
+        }
+      ],
+      "location": [
+        {
+          "value": "401 Ninth",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        217,
+        2633,
+        673,
+        2672
+      ],
+      "id": "207.217.2633",
+      "text": "Curry Bernard, h. 126 W. 26th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Bernard",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "126",
+          "type": "home"
+        },
+        {
+          "value": "26th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        216,
+        2601,
+        881,
+        2656
+      ],
+      "id": "207.216.2601",
+      "text": "Curry Catharine, wid. Bernard, h. 30 Willett"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Catharine",
+          "type": "primary",
+          "occupation": "widow"
+        }
+      ],
+      "location": [
+        {
+          "value": "30 Willett",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        215,
+        2569,
+        807,
+        2608
+      ],
+      "id": "207.215.2569",
+      "text": "Curry Daniel, bellringer, h. 159 W. 30th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Daniel",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "159",
+          "type": "home"
+        },
+        {
+          "value": "30th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        218,
+        2539,
+        1000,
+        2574
+      ],
+      "id": "207.218.2539",
+      "text": "CURRY DAID T. liquos, 150 Church, h. 150 Church"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "CURRY DAID",
+          "type": "primary",
+          "occupation": "liquos"
+        }
+      ],
+      "location": [
+        {
+          "value": "150 Church"
+        },
+        {
+          "value": "150 Church",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        217,
+        2472,
+        902,
+        2509
+      ],
+      "id": "207.217.2472",
+      "text": "Curry Duncan F. sec. 74 Wall, h. 229 W. 19th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Duncan",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "74 Wall"
+        },
+        {
+          "value": "229",
+          "type": "home"
+        },
+        {
+          "value": "19th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        216,
+        2439,
+        810,
+        2475
+      ],
+      "id": "207.216.2439",
+      "text": "Curry Edmond, laborer, h. 307 First av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Edmond",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "307 First av.",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        214,
+        2407,
+        765,
+        2443
+      ],
+      "id": "207.214.2407",
+      "text": "Curry Edward, mason, h. 153 W. 32d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Edward",
+          "type": "primary",
+          "occupation": "mason"
+        }
+      ],
+      "location": [
+        {
+          "value": "153",
+          "type": "home"
+        },
+        {
+          "value": "32d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        214,
+        2375,
+        997,
+        2413
+      ],
+      "id": "207.214.2375",
+      "text": "Cnrry Francis M. realestate, 208 Broadway, h. 89 W. S3d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Cnrry Francis",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "208 Broadway"
+        },
+        {
+          "value": "89",
+          "type": "home"
+        },
+        {
+          "value": "S3d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        214,
+        2308,
+        998,
+        2346
+      ],
+      "id": "207.214.2308",
+      "text": "Curry Hannah, greengrocer, Washington mkt. h. 146 Dnane"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Hannah",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "146 Dnane",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        214,
+        2245,
+        898,
+        2281
+      ],
+      "id": "207.214.2245",
+      "text": "Curry Henry R. carman, h. 20 Greenwich av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Henry",
+          "type": "primary",
+          "occupation": "carman"
+        }
+      ],
+      "location": [
+        {
+          "value": "20 Greenwich av.",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        214,
+        2213,
+        997,
+        2249
+      ],
+      "id": "207.214.2213",
+      "text": "CURRY HUGH, upholsterer, 162 Sixth av. h. 162 Sixth av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "CURRY HUGH",
+          "type": "primary",
+          "occupation": "upholsterer"
+        }
+      ],
+      "location": [
+        {
+          "value": "162 Sixth Avenue"
+        },
+        {
+          "value": "162 Sixth av.",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        213,
+        2148,
+        785,
+        2198
+      ],
+      "id": "207.213.2148",
+      "text": "Curry James, bedsteads, 540 Ninth av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry James",
+          "type": "primary",
+          "occupation": "bedsteads"
+        }
+      ],
+      "location": [
+        {
+          "value": "540 Ninth av."
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        213,
+        2116,
+        835,
+        2151
+      ],
+      "id": "207.213.2116",
+      "text": "Curry ames, coachdriver, h. 678 Honston"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry ames",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "678 Honston",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        214,
+        2084,
+        884,
+        2118
+      ],
+      "id": "207.214.2084",
+      "text": "Cnrry James, coppersmith, h. r. 116 Wooster"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Cnrry James",
+          "type": "primary",
+          "occupation": "coppersmith"
+        }
+      ],
+      "location": [
+        {
+          "value": "116 Wooster",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        213,
+        2051,
+        756,
+        2086
+      ],
+      "id": "207.213.2051",
+      "text": "Curry ames, laborer, h. r. 186 Mott"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry ames",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "186 Mott",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        214,
+        2019,
+        754,
+        2054
+      ],
+      "id": "207.214.2019",
+      "text": "Cnrry James, mason, h. 264 W. 46th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Cnrry James",
+          "type": "primary",
+          "occupation": "mason"
+        }
+      ],
+      "location": [
+        {
+          "value": "264",
+          "type": "home"
+        },
+        {
+          "value": "46th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        213,
+        1986,
+        754,
+        2021
+      ],
+      "id": "207.213.1986",
+      "text": "Curry James, painter, h. 209 E. 20th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry James",
+          "type": "primary",
+          "occupation": "painter"
+        }
+      ],
+      "location": [
+        {
+          "value": "209",
+          "type": "home"
+        },
+        {
+          "value": "20th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        212,
+        1956,
+        880,
+        1989
+      ],
+      "id": "207.212.1956",
+      "text": "Curry deanette, wid. James, h. 28 Thompson"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry deanette",
+          "type": "primary",
+          "occupation": "James"
+        }
+      ],
+      "location": [
+        {
+          "value": "28 Thompson",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        213,
+        1922,
+        797,
+        1957
+      ],
+      "id": "207.213.1922",
+      "text": "Curry John, blacksmlth, h. 141 W. 41st"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry John",
+          "type": "primary",
+          "occupation": "blacksmlth"
+        }
+      ],
+      "location": [
+        {
+          "value": "141",
+          "type": "home"
+        },
+        {
+          "value": "41st"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        214,
+        1890,
+        814,
+        1924
+      ],
+      "id": "207.214.1890",
+      "text": "Curry John, boardingh. 134 Bowery"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry John",
+          "type": "primary",
+          "occupation": "boardingh"
+        }
+      ],
+      "location": [
+        {
+          "value": "134 Bowery"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        213,
+        1857,
+        880,
+        1895
+      ],
+      "id": "207.213.1857",
+      "text": "Curry John, liquors, 67 Cherry, h. 67 Cherry"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry John",
+          "type": "primary",
+          "occupation": "liquors"
+        }
+      ],
+      "location": [
+        {
+          "value": "67 Cherry"
+        },
+        {
+          "value": "67 Cherry",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        214,
+        1825,
+        772,
+        1863
+      ],
+      "id": "207.214.1825",
+      "text": "Curry John, shoemaker, h. 157 E. 82d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry John",
+          "type": "primary",
+          "occupation": "shoemaker"
+        }
+      ],
+      "location": [
+        {
+          "value": "157",
+          "type": "home"
+        },
+        {
+          "value": "82d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        213,
+        1793,
+        819,
+        1827
+      ],
+      "id": "207.213.1793",
+      "text": "Curry John, shoemaker, h. 95½ Mulberry"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry John",
+          "type": "primary",
+          "occupation": "shoemaker"
+        }
+      ],
+      "location": [
+        {
+          "value": "95½ Mulberry",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        214,
+        1761,
+        793,
+        1795
+      ],
+      "id": "207.214.1761",
+      "text": "Curry John, stonecutter, h. 310 W. 33d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry John",
+          "type": "primary",
+          "occupation": "stonecutter"
+        }
+      ],
+      "location": [
+        {
+          "value": "310",
+          "type": "home"
+        },
+        {
+          "value": "33d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        215,
+        1729,
+        776,
+        1762
+      ],
+      "id": "207.215.1729",
+      "text": "Curry John, waiter, h. r. 17 Roosevelt"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry John",
+          "type": "primary",
+          "occupation": "waiter"
+        }
+      ],
+      "location": [
+        {
+          "value": "17 Roosevelt",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        214,
+        1696,
+        994,
+        1732
+      ],
+      "id": "207.214.1696",
+      "text": "Curry Marshall, crockery, 856 Eighth av. h. 356 Bighth av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Marshall",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "856 Eighth Avenue"
+        },
+        {
+          "value": "356 Bighth av.",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        214,
+        1632,
+        648,
+        1666
+      ],
+      "id": "207.214.1632",
+      "text": "Curry Mary, h. 36 Thompson"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Mary",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "36 Thompson",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        215,
+        1601,
+        814,
+        1634
+      ],
+      "id": "207.215.1601",
+      "text": "Curry Patrick, butcher, h. 237 Tenth av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Patrick",
+          "type": "primary",
+          "occupation": "butcher"
+        }
+      ],
+      "location": [
+        {
+          "value": "237 Tenth av.",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        215,
+        1569,
+        762,
+        1601
+      ],
+      "id": "207.215.1569",
+      "text": "Curry Patrick, laborer, h. 341 W. 43d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Patrick",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "341",
+          "type": "home"
+        },
+        {
+          "value": "43d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        216,
+        1536,
+        820,
+        1569
+      ],
+      "id": "207.216.1536",
+      "text": "Curry Mary, wid. Michael, h. 92 Ludlow"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Mary",
+          "type": "primary",
+          "occupation": "widow"
+        }
+      ],
+      "location": [
+        {
+          "value": "92 Ludlow",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        217,
+        1503,
+        820,
+        1538
+      ],
+      "id": "207.217.1503",
+      "text": "Curry Mary, wid. John, h. 36 Thompson"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Mary",
+          "type": "primary",
+          "occupation": "widow"
+        }
+      ],
+      "location": [
+        {
+          "value": "36 Thompson",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        216,
+        1472,
+        780,
+        1505
+      ],
+      "id": "207.216.1472",
+      "text": "Curry Matthew, teamster, h. 862 Sixth"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Matthew",
+          "type": "primary",
+          "occupation": "teamster"
+        }
+      ],
+      "location": [
+        {
+          "value": "862 Sixth",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        217,
+        1440,
+        660,
+        1474
+      ],
+      "id": "207.217.1440",
+      "text": "Curry Patrick, h. 341 W. 43d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Patrick",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "341",
+          "type": "home"
+        },
+        {
+          "value": "43d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        217,
+        1408,
+        849,
+        1442
+      ],
+      "id": "207.217.1408",
+      "text": "Curry Michael, shoemaker, h. 28 Harrison"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Michael",
+          "type": "primary",
+          "occupation": "shoemaker"
+        }
+      ],
+      "location": [
+        {
+          "value": "28 Harrison",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        218,
+        1375,
+        754,
+        1410
+      ],
+      "id": "207.218.1375",
+      "text": "Curry Peter, butcher, h. 174 E. 28th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Peter",
+          "type": "primary",
+          "occupation": "butcher"
+        }
+      ],
+      "location": [
+        {
+          "value": "174",
+          "type": "home"
+        },
+        {
+          "value": "28th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        218,
+        1341,
+        789,
+        1377
+      ],
+      "id": "207.218.1341",
+      "text": "Curry Peter, carpenter, h. 186 W. 27th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Peter",
+          "type": "primary",
+          "occupation": "carpenter"
+        }
+      ],
+      "location": [
+        {
+          "value": "186",
+          "type": "home"
+        },
+        {
+          "value": "27th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        218,
+        1309,
+        996,
+        1345
+      ],
+      "id": "207.218.1309",
+      "text": "Curry Peter, real estate, 65 Chatham, h. E. 52d n. Fifth av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Peter",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "65 Chatham"
+        },
+        {
+          "value": "52d",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        192,
+        1247,
+        764,
+        1281
+      ],
+      "id": "207.192.1247",
+      "text": "Curry Robert, laborer, h. 280 W. 42d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Robert",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "280",
+          "type": "home"
+        },
+        {
+          "value": "42d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        210,
+        1214,
+        766,
+        1249
+      ],
+      "id": "207.210.1214",
+      "text": "Curry Samuel, hotel, 128 Greenwich"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Samuel",
+          "type": "primary",
+          "occupation": "hotel"
+        }
+      ],
+      "location": [
+        {
+          "value": "128 Greenwich"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        194,
+        1182,
+        821,
+        1216
+      ],
+      "id": "207.194.1182",
+      "text": "Curry Stephen, carman, h. 171 E. 28d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Stephen",
+          "type": "primary",
+          "occupation": "carman"
+        }
+      ],
+      "location": [
+        {
+          "value": "171",
+          "type": "home"
+        },
+        {
+          "value": "28d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        220,
+        1149,
+        969,
+        1183
+      ],
+      "id": "207.220.1149",
+      "text": "Curry Timothy, laborer, h. r. W. 37th n. Tenth av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Timothy",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "37th",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        220,
+        1118,
+        817,
+        1152
+      ],
+      "id": "207.220.1118",
+      "text": "Curry Thomas, founder, h. r. 15 Sullivan"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Thomas",
+          "type": "primary",
+          "occupation": "founder"
+        }
+      ],
+      "location": [
+        {
+          "value": "15 Sullivan",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        221,
+        1085,
+        713,
+        1120
+      ],
+      "id": "207.221.1085",
+      "text": "Curry Thomas, grocer, 94 Orange"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Thomas",
+          "type": "primary",
+          "occupation": "grocer"
+        }
+      ],
+      "location": [
+        {
+          "value": "94 Orange"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        221,
+        1053,
+        765,
+        1088
+      ],
+      "id": "207.221.1053",
+      "text": "Curry Thomas, laborer, h. 94 W. 32d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Thomas",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "94",
+          "type": "home"
+        },
+        {
+          "value": "32d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        221,
+        1020,
+        987,
+        1055
+      ],
+      "id": "207.221.1020",
+      "text": "Curry Thomas, hotel, 128 Greenwich, h. 128 G'wich"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Thomas",
+          "type": "primary",
+          "occupation": "hotel"
+        }
+      ],
+      "location": [
+        {
+          "value": "128 Greenwich"
+        },
+        {
+          "value": "128 G'wich",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        222,
+        988,
+        836,
+        1023
+      ],
+      "id": "207.222.988",
+      "text": "Curry Thomas, painter. h. 347 E. Twelfth"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry Thomas",
+          "type": "primary",
+          "occupation": "painter"
+        }
+      ],
+      "location": [
+        {
+          "value": "347",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        221,
+        954,
+        900,
+        991
+      ],
+      "id": "207.221.954",
+      "text": "Curry William, shoemaker, h. r. 12 Dominick"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry William",
+          "type": "primary",
+          "occupation": "shoemaker"
+        }
+      ],
+      "location": [
+        {
+          "value": "12 Dominick",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        221,
+        923,
+        744,
+        958
+      ],
+      "id": "207.221.923",
+      "text": "Curry A. & Co. agents, 65 Chatham"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry",
+          "type": "primary",
+          "occupation": "agents"
+        }
+      ],
+      "location": [
+        {
+          "value": "65 Chatham"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        222,
+        892,
+        749,
+        926
+      ],
+      "id": "207.222.892",
+      "text": "Curry S. & T. hotel, 128 Greenwich"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curry",
+          "type": "primary",
+          "occupation": "hotel"
+        }
+      ],
+      "location": [
+        {
+          "value": "128 Greenwich"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        222,
+        859,
+        949,
+        894
+      ],
+      "id": "207.222.859",
+      "text": "Curson Andrew, baker, h. W. 41st n. 8eventh av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curson Andrew",
+          "type": "primary",
+          "occupation": "baker"
+        }
+      ],
+      "location": [
+        {
+          "value": "41st",
+          "type": "home"
+        },
+        {
+          "value": "8eventh av."
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        222,
+        827,
+        736,
+        862
+      ],
+      "id": "207.222.827",
+      "text": "Curtin Charles, carman, h, 23 Ross"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin Charles",
+          "type": "primary",
+          "occupation": "carman"
+        }
+      ],
+      "location": [
+        {
+          "value": "23 Ross",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        223,
+        791,
+        999,
+        829
+      ],
+      "id": "207.223.791",
+      "text": "Curtane Cornelius, grocer, 102 Washington, h. 102 Washington"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtane Cornelius",
+          "type": "primary",
+          "occupation": "grocer"
+        }
+      ],
+      "location": [
+        {
+          "value": "102 Washington"
+        },
+        {
+          "value": "102 Washington",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        223,
+        729,
+        782,
+        766
+      ],
+      "id": "207.223.729",
+      "text": "Curter Patrick, blacksmith, 21 Prince"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curter Patrick",
+          "type": "primary",
+          "occupation": "blacksmith"
+        }
+      ],
+      "location": [
+        {
+          "value": "21 Prince"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        223,
+        700,
+        677,
+        733
+      ],
+      "id": "207.223.700",
+      "text": "Curth Carl, tailor, h. 36 Hester"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curth Carl",
+          "type": "primary",
+          "occupation": "tailor"
+        }
+      ],
+      "location": [
+        {
+          "value": "36 Hester",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        223,
+        666,
+        810,
+        701
+      ],
+      "id": "207.223.666",
+      "text": "Curtin Daniel, laborer, h. r. 282 W. 17th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin Daniel",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "282",
+          "type": "home",
+          "position": "rear"
+        },
+        {
+          "value": "17th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        223,
+        633,
+        735,
+        669
+      ],
+      "id": "207.223.633",
+      "text": "Curtin Dennis, pedler, h. 92 James"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin Dennis",
+          "type": "primary",
+          "occupation": "pedler"
+        }
+      ],
+      "location": [
+        {
+          "value": "92 James",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        223,
+        601,
+        734,
+        636
+      ],
+      "id": "207.223.601",
+      "text": "Curtin ames, clerk, h. 20 Batavia"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin ames",
+          "type": "primary",
+          "occupation": "clerk"
+        }
+      ],
+      "location": [
+        {
+          "value": "20 Batavia",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        222,
+        569,
+        757,
+        604
+      ],
+      "id": "207.222.569",
+      "text": "Curtin James, laborer, h. r. 111 Cliff"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin James",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "111 Cliff",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        223,
+        536,
+        888,
+        571
+      ],
+      "id": "207.223.536",
+      "text": "Curtin James, laborer, h. E. 43d c. Third av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin James",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "43d",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        222,
+        497,
+        984,
+        539
+      ],
+      "id": "207.222.497",
+      "text": "Curtin Jeremiah, grocer, 12½ Orange, h. 12½ Orange"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin Jeremiah",
+          "type": "primary",
+          "occupation": "grocer"
+        }
+      ],
+      "location": [
+        {
+          "value": "12½ Orange"
+        },
+        {
+          "value": "12½ Orange",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        223,
+        456,
+        1001,
+        507
+      ],
+      "id": "207.223.456",
+      "text": "Curtin Jeremiah, shoemaker, 58 Robinson, h. 75 Robinson"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin Jeremiah",
+          "type": "primary",
+          "occupation": "shoemaker"
+        }
+      ],
+      "location": [
+        {
+          "value": "58 Robinson"
+        },
+        {
+          "value": "75 Robinson",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        222,
+        403,
+        888,
+        443
+      ],
+      "id": "207.222.403",
+      "text": "Curtin Jeremiah, boilermaker, h. 308 Eighth"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin Jeremiah",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "308 Eighth",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        224,
+        375,
+        749,
+        411
+      ],
+      "id": "207.224.375",
+      "text": "Curtin John, laborer, h. 207 Fulton"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin John",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "207 Fulton",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        223,
+        341,
+        766,
+        380
+      ],
+      "id": "207.223.341",
+      "text": "Curtin John, waiter, h. 115 Mulberry"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin John",
+          "type": "primary",
+          "occupation": "waiter"
+        }
+      ],
+      "location": [
+        {
+          "value": "115 Mulberry",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        224,
+        307,
+        860,
+        346
+      ],
+      "id": "207.224.307",
+      "text": "Curtin John, carpenter, h. 445 Washington"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin John",
+          "type": "primary",
+          "occupation": "carpenter"
+        }
+      ],
+      "location": [
+        {
+          "value": "445 Washington",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        224,
+        278,
+        891,
+        314
+      ],
+      "id": "207.224.278",
+      "text": "Curtin Lawrence, laborer, h. r. 817 Third av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin Lawrence",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "817 Third av.",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        219,
+        244,
+        795,
+        281
+      ],
+      "id": "207.219.244",
+      "text": "Curtin Michael, laborer, h. 446 Cherry"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin Michael",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "446 Cherry",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        225,
+        212,
+        804,
+        248
+      ],
+      "id": "207.225.212",
+      "text": "Curtin Michael, smlth, h. r. 185 Crosby"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin Michael",
+          "type": "primary",
+          "occupation": "smlth"
+        }
+      ],
+      "location": [
+        {
+          "value": "185 Crosby",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        225,
+        180,
+        950,
+        215
+      ],
+      "id": "207.225.180",
+      "text": "Curtin William, laborer, h. E. 18th n. Fonrth av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin William",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "18th",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        225,
+        148,
+        804,
+        182
+      ],
+      "id": "207.225.148",
+      "text": "Curtin William, laborer, h. 264 E. 14th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtin William",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "264",
+          "type": "home"
+        },
+        {
+          "value": "14th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        226,
+        115,
+        769,
+        149
+      ],
+      "id": "207.226.115",
+      "text": "Curtis Abel, laborer, h. 624 Sixth av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Abel",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "624 Sixth av.",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1041,
+        3006,
+        1814,
+        3042
+      ],
+      "id": "207.1041.3006",
+      "text": "Curtis Abijah C. disfiller, 107 Murray, h. 87 Clinton"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Abijah",
+          "type": "primary",
+          "occupation": "disfiller"
+        }
+      ],
+      "location": [
+        {
+          "value": "107 Murray"
+        },
+        {
+          "value": "87 Clinton",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1039,
+        2941,
+        1656,
+        2976
+      ],
+      "id": "207.1039.2941",
+      "text": "Curtis Alfred, stagedriver, h. 256 W. 26th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Alfred",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "256",
+          "type": "home"
+        },
+        {
+          "value": "26th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1038,
+        2912,
+        1698,
+        2943
+      ],
+      "id": "207.1038.2912",
+      "text": "Curtis Alfred L. silks, 26 John, h. 39 E. 21st"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Alfred",
+          "type": "primary",
+          "occupation": "silks"
+        }
+      ],
+      "location": [
+        {
+          "value": "26 John"
+        },
+        {
+          "value": "39",
+          "type": "home"
+        },
+        {
+          "value": "21st"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1037,
+        2874,
+        1754,
+        2911
+      ],
+      "id": "207.1037.2874",
+      "text": "Curtis Allen S. silks, 26 John, h. 90 W. 22d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Allen",
+          "type": "primary",
+          "occupation": "silks"
+        }
+      ],
+      "location": [
+        {
+          "value": "26 John"
+        },
+        {
+          "value": "90",
+          "type": "home"
+        },
+        {
+          "value": "22d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1037,
+        2845,
+        1624,
+        2878
+      ],
+      "id": "207.1037.2845",
+      "text": "Curtis Amroy E. machinist, 99 E. 28th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Amroy",
+          "type": "primary",
+          "occupation": "machinist"
+        }
+      ],
+      "location": [
+        {
+          "value": "99"
+        },
+        {
+          "value": "28th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1037,
+        2810,
+        1666,
+        2845
+      ],
+      "id": "207.1037.2810",
+      "text": "Curtis Benjamin, lmp. 39 Broad, h. JW.ris"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Benjamin",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "39 Broad"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1037,
+        2777,
+        1813,
+        2815
+      ],
+      "id": "207.1037.2777",
+      "text": "Curtis Benjamin F. butter, 259 Washington, h. 48 E. 18th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Benjamin",
+          "type": "primary",
+          "occupation": "butter"
+        }
+      ],
+      "location": [
+        {
+          "value": "259 Washington"
+        },
+        {
+          "value": "48",
+          "type": "home"
+        },
+        {
+          "value": "18th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1036,
+        2709,
+        1784,
+        2746
+      ],
+      "id": "207.1036.2709",
+      "text": "Curtis Charles, barber, 30 Broadway, h. Broadway"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Charles",
+          "type": "primary",
+          "occupation": "barber"
+        }
+      ],
+      "location": [
+        {
+          "value": "30 Broadway"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1035,
+        2682,
+        1672,
+        2714
+      ],
+      "id": "207.1035.2682",
+      "text": "Curtis Charles, oysters, h 137 Waslington"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Charles",
+          "type": "primary",
+          "occupation": "oysters"
+        }
+      ],
+      "location": [
+        {
+          "value": "137 Waslington",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1035,
+        2646,
+        1812,
+        2682
+      ],
+      "id": "207.1035.2646",
+      "text": "Cartis Charles C. clerk, 86 Williani, h. 15 Lispenard"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Cartis Charles",
+          "type": "primary",
+          "occupation": "clerk"
+        }
+      ],
+      "location": [
+        {
+          "value": "86 Williani"
+        },
+        {
+          "value": "15 Lispenard",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1035,
+        2613,
+        1798,
+        2648
+      ],
+      "id": "207.1035.2613",
+      "text": "Curtis Charles T. 36 Broaddway, h. lqorsro"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Charles",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "36 Broaddway"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1034,
+        2575,
+        1810,
+        2616
+      ],
+      "id": "207.1034.2575",
+      "text": "Curtis Charles L. hardware, 180 Greenwich, h. 17 E. 13th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Charles",
+          "type": "primary",
+          "occupation": "hardware"
+        }
+      ],
+      "location": [
+        {
+          "value": "180 Greenwich"
+        },
+        {
+          "value": "17",
+          "type": "home"
+        },
+        {
+          "value": "13th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1034,
+        2516,
+        1675,
+        2550
+      ],
+      "id": "207.1034.2516",
+      "text": "Curtis Cyrus, mer. 111 Water, h. 80 Ninth"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Cyrus",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "111 Water"
+        },
+        {
+          "value": "80 Ninth",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1033,
+        2486,
+        1604,
+        2517
+      ],
+      "id": "207.1033.2486",
+      "text": "Curtis Daniel, coachman, h. 205 AlIlen"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Daniel",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "205 AlIlen",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1033,
+        2452,
+        1811,
+        2486
+      ],
+      "id": "207.1033.2452",
+      "text": "CURTIS DANIEL & CO. mers. 111 Pearl, h. ullen's hotel"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "CURTIS DANIEL & CO",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "111 Pearl"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        2389,
+        1752,
+        2429
+      ],
+      "id": "207.1032.2389",
+      "text": "Curtis Daniel H. mer. 24 William, h. 40 E. 25th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Daniel",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "24 William"
+        },
+        {
+          "value": "40",
+          "type": "home"
+        },
+        {
+          "value": "25th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        2350,
+        1809,
+        2386
+      ],
+      "id": "207.1032.2350",
+      "text": "Curtis Edward, blacksmith, 209 West, & boilermaker, 209 Franklin, h. 267 Seventh"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Edward",
+          "type": "primary",
+          "occupation": "blacksmith"
+        }
+      ],
+      "location": [
+        {
+          "value": "209 West"
+        },
+        {
+          "value": "209 Franklin"
+        },
+        {
+          "value": "267 Seventh",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        2288,
+        1577,
+        2320
+      ],
+      "id": "207.1031.2288",
+      "text": "Curtis Edward, lawyer, 3 Broadway"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Edward",
+          "type": "primary",
+          "occupation": "lawyer"
+        }
+      ],
+      "location": [
+        {
+          "value": "3"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        2254,
+        1810,
+        2288
+      ],
+      "id": "207.1031.2254",
+      "text": "Curts Edwin, crockery, 2 Liberty, h. 146 Thompson"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curts Edwin",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "146 Thompson",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        2220,
+        1808,
+        2257
+      ],
+      "id": "207.1031.2220",
+      "text": "Curtis Edwin H. grocer, 170 Varick & S4 Carmine, h. 24 Carmine"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Edwin",
+          "type": "primary",
+          "occupation": "grocer"
+        }
+      ],
+      "location": [
+        {
+          "value": "170 Varick & S4 Carmine"
+        },
+        {
+          "value": "24 Carmine",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        2157,
+        1544,
+        2190
+      ],
+      "id": "207.1031.2157",
+      "text": "Curtis Elljah, police, h. 230 Water"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Elljah",
+          "type": "primary",
+          "occupation": "police"
+        }
+      ],
+      "location": [
+        {
+          "value": "230 Water",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        2124,
+        1780,
+        2157
+      ],
+      "id": "207.1031.2124",
+      "text": "Curtis Eugene, oysters, 236 Grand, h. 132 Forsyth"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Eugene",
+          "type": "primary",
+          "occupation": "oysters"
+        }
+      ],
+      "location": [
+        {
+          "value": "236 Grand"
+        },
+        {
+          "value": "132 Forsyth",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        2092,
+        1584,
+        2125
+      ],
+      "id": "207.1031.2092",
+      "text": "Cnrtis Felix, ailor, h. r. 129 W. 28th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Cnrtis Felix",
+          "type": "primary",
+          "occupation": "ailor"
+        }
+      ],
+      "location": [
+        {
+          "value": "129",
+          "type": "home",
+          "position": "rear"
+        },
+        {
+          "value": "28th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        2059,
+        1808,
+        2092
+      ],
+      "id": "207.1031.2059",
+      "text": "Curtis Frederick E. com. mer. 66 Cortlandt, h. Third av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Frederick",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "66 Cortlandt"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        1994,
+        1808,
+        2027
+      ],
+      "id": "207.1031.1994",
+      "text": "Curtis Frederick, platedgoods, 55 Cedar, h. drtLvd"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Frederick",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "55 Cedar"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1030,
+        1929,
+        1821,
+        1965
+      ],
+      "id": "207.1030.1929",
+      "text": "Curtis George, pres. 12 Wall, h. 27 Washington pl."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis George",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "12 Wall"
+        },
+        {
+          "value": "27 Washington pl.",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        1896,
+        1764,
+        1930
+      ],
+      "id": "207.1031.1896",
+      "text": "Curtis George, lawyer, 3 Broadway, h. Jroocyvs"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis George",
+          "type": "primary",
+          "occupation": "lawyer"
+        }
+      ],
+      "location": [
+        {
+          "value": "3"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        1864,
+        1688,
+        1899
+      ],
+      "id": "207.1032.1864",
+      "text": "Curtis George W. carman, h. r. 195 W. 20th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis George",
+          "type": "primary",
+          "occupation": "carman"
+        }
+      ],
+      "location": [
+        {
+          "value": "195",
+          "type": "home",
+          "position": "rear"
+        },
+        {
+          "value": "20th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1030,
+        1831,
+        1809,
+        1864
+      ],
+      "id": "207.1030.1831",
+      "text": "Curtis George A. flour & feed, 230 Front, h. Aoocfyrs"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis George",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "230 Front"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        1799,
+        1744,
+        1832
+      ],
+      "id": "207.1031.1799",
+      "text": "Curtis George H. music, 29 Greene, h. Aeorc"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis George",
+          "type": "primary",
+          "occupation": "music"
+        }
+      ],
+      "location": [
+        {
+          "value": "29 Greene"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        1766,
+        1746,
+        1799
+      ],
+      "id": "207.1031.1766",
+      "text": "Curtis George W. author, h. 27 Washington pl."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis George",
+          "type": "primary",
+          "occupation": "author"
+        }
+      ],
+      "location": [
+        {
+          "value": "27 Washington pl.",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1030,
+        1734,
+        1595,
+        1766
+      ],
+      "id": "207.1030.1734",
+      "text": "Curtis Harriet, widdow, h. 222 Clinton"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Harriet",
+          "type": "primary",
+          "occupation": "widdow"
+        }
+      ],
+      "location": [
+        {
+          "value": "222 Clinton",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        1701,
+        1756,
+        1734
+      ],
+      "id": "207.1031.1701",
+      "text": "Curtis Henry, liquors, 351 Cherry, h. 351 Cherry"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Henry",
+          "type": "primary",
+          "occupation": "liquors"
+        }
+      ],
+      "location": [
+        {
+          "value": "351 Cherry"
+        },
+        {
+          "value": "351 Cherry",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1030,
+        1669,
+        1707,
+        1701
+      ],
+      "id": "207.1030.1669",
+      "text": "Curtis Henry A. broker, 114 Wall, h. 56 Pike"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Henry",
+          "type": "primary",
+          "occupation": "broker"
+        }
+      ],
+      "location": [
+        {
+          "value": "114 Wall"
+        },
+        {
+          "value": "56 Pike",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        1635,
+        1612,
+        1669
+      ],
+      "id": "207.1031.1635",
+      "text": "Curtis ames, stevedore, h. 406 Cherry"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis ames",
+          "type": "primary",
+          "occupation": "stevedore"
+        }
+      ],
+      "location": [
+        {
+          "value": "406 Cherry",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        1605,
+        1541,
+        1636
+      ],
+      "id": "207.1031.1605",
+      "text": "Curtis James, clerk, h. 20 Batavia"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis James",
+          "type": "primary",
+          "occupation": "clerk"
+        }
+      ],
+      "location": [
+        {
+          "value": "20 Batavia",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        1570,
+        1737,
+        1604
+      ],
+      "id": "207.1031.1570",
+      "text": "Curtis James L. pres. 24 William, h. 13 E. 28th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis James",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "24 William"
+        },
+        {
+          "value": "13",
+          "type": "home"
+        },
+        {
+          "value": "28th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        1537,
+        1808,
+        1571
+      ],
+      "id": "207.1031.1537",
+      "text": "Curtis Jeremiah, drugs, 149 Chambers, h. 13 Elm pl. oocfpvt"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Jeremiah",
+          "type": "primary",
+          "occupation": "drugs"
+        }
+      ],
+      "location": [
+        {
+          "value": "149 Chambers"
+        },
+        {
+          "value": "13 Elm pl",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        1474,
+        1594,
+        1516
+      ],
+      "id": "207.1031.1474",
+      "text": "Curtis John, carman, h. 215 Franklin"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis John",
+          "type": "primary",
+          "occupation": "carman"
+        }
+      ],
+      "location": [
+        {
+          "value": "215 Franklin",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        1441,
+        1498,
+        1474
+      ],
+      "id": "207.1032.1441",
+      "text": "Curtis John, coal, h. 199 Amos"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis John",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "199 Amos",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        1409,
+        1522,
+        1441
+      ],
+      "id": "207.1031.1409",
+      "text": "Curtis John, currier, 227 Walker"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis John",
+          "type": "primary",
+          "occupation": "currier"
+        }
+      ],
+      "location": [
+        {
+          "value": "227 Walker"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1033,
+        1376,
+        1810,
+        1409
+      ],
+      "id": "207.1033.1376",
+      "text": "Cnrtis John A. auctioneer, 52 Broad, h. 31 Seventh av"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Cnrtis John",
+          "type": "primary",
+          "occupation": "auctioneer"
+        }
+      ],
+      "location": [
+        {
+          "value": "52 Broad"
+        },
+        {
+          "value": "31 Seventh av",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        1343,
+        1598,
+        1380
+      ],
+      "id": "207.1032.1343",
+      "text": "Curtis John B. dtiver, h. 227 Seventh"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis John",
+          "type": "primary",
+          "occupation": "dtiver"
+        }
+      ],
+      "location": [
+        {
+          "value": "227 Seventh",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        1311,
+        1619,
+        1344
+      ],
+      "id": "207.1032.1311",
+      "text": "Curtis John H. tailor, h. r. 129 W. 28th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis John",
+          "type": "primary",
+          "occupation": "tailor"
+        }
+      ],
+      "location": [
+        {
+          "value": "129",
+          "type": "home",
+          "position": "rear"
+        },
+        {
+          "value": "28th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        1278,
+        1612,
+        1312
+      ],
+      "id": "207.1032.1278",
+      "text": "Curtis John W. police, h. 106 Charlton"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis John",
+          "type": "primary",
+          "occupation": "police"
+        }
+      ],
+      "location": [
+        {
+          "value": "106 Charlton",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        1244,
+        1691,
+        1280
+      ],
+      "id": "207.1032.1244",
+      "text": "Curtis Joseph, shipcarpenter, h. 328 Monroe"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Joseph",
+          "type": "primary",
+          "occupation": "shipcarpenter"
+        }
+      ],
+      "location": [
+        {
+          "value": "328 Monroe",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        1212,
+        1745,
+        1247
+      ],
+      "id": "207.1032.1212",
+      "text": "Curtis Joseph, ex inspector, h. 47 Lexington nv."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Joseph",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "47 Lexington nv.",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        1179,
+        1682,
+        1215
+      ],
+      "id": "207.1032.1179",
+      "text": "Curtis Joseph, silks, 26 John, h. 39 E. 21st"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Joseph",
+          "type": "primary",
+          "occupation": "silks"
+        }
+      ],
+      "location": [
+        {
+          "value": "26 John"
+        },
+        {
+          "value": "39",
+          "type": "home"
+        },
+        {
+          "value": "21st"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        1147,
+        1697,
+        1183
+      ],
+      "id": "207.1032.1147",
+      "text": "Curtis oseph D. B. imp. 39 Broad, h. Fqrrs"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis oseph",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "39 Broad"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        1115,
+        1682,
+        1150
+      ],
+      "id": "207.1032.1115",
+      "text": "Curtis Joseph R. 2 William, h. yds Pmr"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Joseph",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "2"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        1081,
+        1813,
+        1117
+      ],
+      "id": "207.1032.1081",
+      "text": "Curtis Joseph S. platedgoods, 55 Cedar, h. drord"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Joseph",
+          "type": "primary",
+          "occupation": "drord"
+        }
+      ],
+      "location": [
+        {
+          "value": "55 Cedar"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1033,
+        1050,
+        1652,
+        1085
+      ],
+      "id": "207.1033.1050",
+      "text": "Curtis Joseph T. physician, h. 28 W. 15th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Joseph",
+          "type": "primary",
+          "occupation": "physician"
+        }
+      ],
+      "location": [
+        {
+          "value": "28",
+          "type": "home"
+        },
+        {
+          "value": "15th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        1018,
+        1759,
+        1052
+      ],
+      "id": "207.1032.1018",
+      "text": "Curtis Lemuel, watches, 108 Av. D, h. 293 Third"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Lemuel",
+          "type": "primary",
+          "occupation": "watches"
+        }
+      ],
+      "location": [
+        {
+          "value": "108 Avenue"
+        },
+        {
+          "value": "293 Third",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1033,
+        985,
+        1676,
+        1019
+      ],
+      "id": "207.1033.985",
+      "text": "Curtis Lewis, imp. 39 Broad, h. 11 W. 14th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Lewis",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "39 Broad"
+        },
+        {
+          "value": "11",
+          "type": "home"
+        },
+        {
+          "value": "14th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        953,
+        1813,
+        986
+      ],
+      "id": "207.1032.953",
+      "text": "Curtis Margaret, wid. William, nurse, h. 116 Charles"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Margaret",
+          "type": "primary",
+          "occupation": "nurse"
+        }
+      ],
+      "location": [
+        {
+          "value": "116 Charles",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        919,
+        1698,
+        954
+      ],
+      "id": "207.1032.919",
+      "text": "Curtis Mary, wid. John, h. 152 E. Broadway"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Mary",
+          "type": "primary",
+          "occupation": "widow"
+        }
+      ],
+      "location": [
+        {
+          "value": "152",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1033,
+        890,
+        1645,
+        922
+      ],
+      "id": "207.1033.890",
+      "text": "Curtis Mary, wid. John D. h. 149 W. 22d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Mary",
+          "type": "primary",
+          "occupation": "widow"
+        }
+      ],
+      "location": [
+        {
+          "value": "149",
+          "type": "home"
+        },
+        {
+          "value": "22d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        854,
+        1812,
+        889
+      ],
+      "id": "207.1032.854",
+      "text": "Curtis Melancthen H. forwarding, 113 Broad, h. Clermont h."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Melancthen",
+          "type": "primary",
+          "occupation": "forwarding"
+        }
+      ],
+      "location": [
+        {
+          "value": "113 Broad"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1033,
+        789,
+        1812,
+        824
+      ],
+      "id": "207.1033.789",
+      "text": "Curtis Morgan L. gasfixtures, 49 Greene, h. 12 St. George's pl."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Morgan",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "49 Greene"
+        },
+        {
+          "value": "12 St",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1033,
+        724,
+        1800,
+        758
+      ],
+      "id": "207.1033.724",
+      "text": "Curtis Nancy, wid. Leonard, boardingh. 208 E. 19th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Nancy",
+          "type": "primary",
+          "occupation": "boardingh"
+        }
+      ],
+      "location": [
+        {
+          "value": "208"
+        },
+        {
+          "value": "19th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1033,
+        692,
+        1599,
+        726
+      ],
+      "id": "207.1033.692",
+      "text": "Curtis Nathan, pianos, 447 Broadway"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Nathan",
+          "type": "primary",
+          "occupation": "pianos"
+        }
+      ],
+      "location": [
+        {
+          "value": "447 Broadway"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1034,
+        659,
+        1813,
+        694
+      ],
+      "id": "207.1034.659",
+      "text": "CURTIS N. T. elegraph, 21 Wall, h. 164 Court, Mroocfpvt"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "CURTIS",
+          "type": "primary",
+          "occupation": "elegraph"
+        }
+      ],
+      "location": [
+        {
+          "value": "21 Wall"
+        },
+        {
+          "value": "164 Court",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1034,
+        596,
+        1580,
+        629
+      ],
+      "id": "207.1034.596",
+      "text": "Curtis Olfver, laborer, h. 193 W. 43dd"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Olfver",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "193",
+          "type": "home"
+        },
+        {
+          "value": "43dd"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1034,
+        562,
+        1597,
+        595
+      ],
+      "id": "207.1034.562",
+      "text": "Curtis Orris, printer, h. r. 74 Eldridge"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Orris",
+          "type": "primary",
+          "occupation": "printer"
+        }
+      ],
+      "location": [
+        {
+          "value": "74 Eldridge",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1035,
+        530,
+        1663,
+        564
+      ],
+      "id": "207.1035.530",
+      "text": "Curtis Paul A. silks, 26 John, h. 28 E. 23d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Paul",
+          "type": "primary",
+          "occupation": "silks"
+        }
+      ],
+      "location": [
+        {
+          "value": "26 John"
+        },
+        {
+          "value": "28",
+          "type": "home"
+        },
+        {
+          "value": "23d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1035,
+        496,
+        1816,
+        531
+      ],
+      "id": "207.1035.496",
+      "text": "Curtis Phebe, wid. Nelson (col'd), washing, h. 168 W. 19th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Phebe",
+          "type": "primary",
+          "occupation": "washing"
+        }
+      ],
+      "location": [
+        {
+          "value": "168",
+          "type": "home"
+        },
+        {
+          "value": "19th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1033,
+        431,
+        1815,
+        466
+      ],
+      "id": "207.1033.431",
+      "text": "Curtis Ransom, imp. 561 & 563 Broadway, h. St. Nicholas"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Ransom",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "561 & 563 Broadway"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1037,
+        367,
+        1441,
+        402
+      ],
+      "id": "207.1037.367",
+      "text": "Curtis (Rev.), h. 29 Amity"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis (Rev.)",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "29 Amity",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1037,
+        336,
+        1566,
+        369
+      ],
+      "id": "207.1037.336",
+      "text": "Curtis Robert, laborer, h. 22 Morris"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Robert",
+          "type": "primary",
+          "occupation": "laborer"
+        }
+      ],
+      "location": [
+        {
+          "value": "22 Morris",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1031,
+        303,
+        1670,
+        336
+      ],
+      "id": "207.1031.303",
+      "text": "Curtis Robert, late grocer, h. 29 Whitehall"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Robert",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "29 Whitehall",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1034,
+        270,
+        1788,
+        304
+      ],
+      "id": "207.1034.270",
+      "text": "Curtis Robert, smith, 6084 Fourth, h. 608½ Fourthh"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Robert",
+          "type": "primary",
+          "occupation": "smith"
+        }
+      ],
+      "location": [
+        {
+          "value": "6084 Fourth"
+        },
+        {
+          "value": "608½ Fourthh",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1038,
+        237,
+        1818,
+        272
+      ],
+      "id": "207.1038.237",
+      "text": "Curtis Roger W. gent's furnishing, 723 Broadway, h. 89 E. 33d"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Roger",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "723 Broadway"
+        },
+        {
+          "value": "89",
+          "type": "home"
+        },
+        {
+          "value": "33d"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1039,
+        172,
+        1818,
+        212
+      ],
+      "id": "207.1039.172",
+      "text": "Curtis Samuel, architect, 434 Broadway, h. 37 Fourth, BBdfdgisozryk"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Samuel",
+          "type": "primary",
+          "occupation": "architect"
+        }
+      ],
+      "location": [
+        {
+          "value": "434 Broadway"
+        },
+        {
+          "value": "37 Fourth",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 207,
+      "bbox": [
+        1032,
+        109,
+        1609,
+        150
+      ],
+      "id": "207.1032.109",
+      "text": "Curtis Sarah, wid. Stiles, h. r. 8 Grove"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Sarah",
+          "type": "primary",
+          "occupation": "Grove"
+        }
+      ],
+      "location": [
+        {
+          "value": "8",
+          "type": "home",
+          "position": "rear"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        44,
+        3081,
+        761,
+        3121
+      ],
+      "id": "208.44.3081",
+      "text": "Curtis Sidney, hardware, 104 John, h. 28 Kingt"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Sidney",
+          "type": "primary",
+          "occupation": "hardware"
+        }
+      ],
+      "location": [
+        {
+          "value": "104 John"
+        },
+        {
+          "value": "28 Kingt",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        45,
+        3052,
+        860,
+        3088
+      ],
+      "id": "208.45.3052",
+      "text": "Curiis Sineon, druggist, 206 Seventh av. h. 132 W. 344ih"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curiis Sineon",
+          "type": "primary",
+          "occupation": "druggist"
+        }
+      ],
+      "location": [
+        {
+          "value": "206 Seventh Avenue"
+        },
+        {
+          "value": "132",
+          "type": "home"
+        },
+        {
+          "value": "344ih"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        45,
+        2980,
+        860,
+        3026
+      ],
+      "id": "208.45.2980",
+      "text": "Curtis Stephen jr. britanniaware, 106 Elm, h. 679 Greenwiclh"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Stephen jr",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "106 Elm"
+        },
+        {
+          "value": "679 Greenwiclh",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        46,
+        2917,
+        800,
+        2953
+      ],
+      "id": "208.46.2917",
+      "text": "Curtis Stiles. produce, 203 Duane, h. 118 W. 21st"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Stiles",
+          "type": "primary",
+          "occupation": "produce"
+        }
+      ],
+      "location": [
+        {
+          "value": "203 Duane"
+        },
+        {
+          "value": "118",
+          "type": "home"
+        },
+        {
+          "value": "21st"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        46,
+        2885,
+        618,
+        2920
+      ],
+      "id": "208.46.2885",
+      "text": "Cartis Sylvester J. clerk. h. 98 Amos"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Cartis Sylvester",
+          "type": "primary",
+          "occupation": "clerk"
+        }
+      ],
+      "location": [
+        {
+          "value": "98 Amos",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        45,
+        2852,
+        682,
+        2886
+      ],
+      "id": "208.45.2852",
+      "text": "Cartis homas, stageddriver, h. S58 Tenth"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Cartis homas",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "S58 Tenth",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        46,
+        2803,
+        860,
+        2853
+      ],
+      "id": "208.46.2803",
+      "text": "Curtis honas H. ate com. mer. 110 Warren, h. 169 W. 39th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis honas",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "110 Warren"
+        },
+        {
+          "value": "169",
+          "type": "home"
+        },
+        {
+          "value": "39th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        47,
+        2749,
+        859,
+        2785
+      ],
+      "id": "208.47.2749",
+      "text": "Curtis Thomas J. carpenter, 102 Greenwich av. h. 102 Greenwich av."
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis Thomas",
+          "type": "primary",
+          "occupation": "carpenter"
+        }
+      ],
+      "location": [
+        {
+          "value": "102 Greenwich Avenue"
+        },
+        {
+          "value": "102 Greenwich av.",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        48,
+        2683,
+        688,
+        2718
+      ],
+      "id": "208.48.2683",
+      "text": "Curtis William (col'l , jeweler, h. 7 York"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis William (col'l",
+          "type": "primary",
+          "occupation": "jeweler"
+        }
+      ],
+      "location": [
+        {
+          "value": "7",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        48,
+        2648,
+        848,
+        2685
+      ],
+      "id": "208.48.2648",
+      "text": "Curis William, eacher, 90 King, h. 185 8anal"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curis William",
+          "type": "primary",
+          "occupation": "eacher"
+        }
+      ],
+      "location": [
+        {
+          "value": "90 King"
+        },
+        {
+          "value": "185 8anal",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        47,
+        2618,
+        496,
+        2651
+      ],
+      "id": "208.47.2618",
+      "text": "Curtis William, b. 45 E. 24th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis William",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "45"
+        },
+        {
+          "value": "24th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        48,
+        2582,
+        777,
+        2617
+      ],
+      "id": "208.48.2582",
+      "text": "Curts William, carpenter, h. 169 W. 39th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curts William",
+          "type": "primary",
+          "occupation": "carpenter"
+        }
+      ],
+      "location": [
+        {
+          "value": "169",
+          "type": "home"
+        },
+        {
+          "value": "39th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        48,
+        2548,
+        663,
+        2584
+      ],
+      "id": "208.48.2548",
+      "text": "Curis William B. ( Rev.) h. 24 Carmine"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curis William",
+          "type": "primary"
+        }
+      ],
+      "location": [
+        {
+          "value": "24 Carmine",
+          "type": "home"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        27,
+        2500,
+        861,
+        2550
+      ],
+      "id": "208.27.2500",
+      "text": "Curtis William E. lawyer, 106 Broadway, h. 98 E. 15th"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Curtis William",
+          "type": "primary",
+          "occupation": "lawyer"
+        }
+      ],
+      "location": [
+        {
+          "value": "106 Broadway"
+        },
+        {
+          "value": "98",
+          "type": "home"
+        },
+        {
+          "value": "15th"
+        }
+      ]
+    }
+  },
+  {
+    "original_ocr": {
+      "page_num": 208,
+      "bbox": [
+        48,
+        2446,
+        864,
+        2483
+      ],
+      "id": "208.48.2446",
+      "text": "Cartis William H. grocer, 222 Washington, h. Fooocebt"
+    },
+    "attributes_parsed": {
+      "subject": [
+        {
+          "value": "Cartis William",
+          "type": "primary",
+          "occupation": "grocer"
+        }
+      ],
+      "location": [
+        {
+          "value": "222 Washington"
+        }
+      ]
+    }
+  }
+]
