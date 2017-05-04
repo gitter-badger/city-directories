@@ -28,7 +28,7 @@ end
 
 jobs = File.read('/Users/stephen/Documents/nypl-directories/occupations_data/ipums-occ-list.txt').split("\n")
 jobs.concat(File.read('/Users/stephen/Documents/nypl-directories/occupations_data/wilson-occ-list.txt').split("\n"))
-jobs.concat(["publisher"])
+jobs.concat(["publisher", "realestate", "realestate", "greengrocer", "green grocer", "coachdriver"])
 
 parsed_lines = lines.map { |line| [line, parse_line_elements(line)] }
 
