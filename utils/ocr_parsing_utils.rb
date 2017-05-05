@@ -41,6 +41,8 @@ parsed_lines[20000..20200].each_with_index do |line, index|
   end
 end
 
+levenshteyn_cache = {}
+
 lines_and_classes = lines_and_decisions.map { |ent| [ent[0], classify_decisions(ent[1])] }
 
 tester = lines_and_classes.map { |ent| consolidate_classes(ent[0], ent[1]) }
@@ -49,13 +51,19 @@ File.open("/Users/stephen/Documents/nypl-directories/sample_decisions_classes.js
   f.write(JSON.pretty_generate(tester))
 end
 
+results = []
+lines[20000..30000].each_with_index do |line,index|
+  results << process_line(line, jobs, levenshteyn_cache)
+  puts index
+end
+
 #### End Procedures ####
 
 ## Consolidates all of the below functions,
 ## and produces a labeled record from an OCR
 ## JSON line
-def process_line(original_line, jobs)
-  consolidate_classes(original_line, classify_decisions(category_parsing(parse_line_elements(original_line), jobs)))
+def process_line(original_line, jobs, ld_cache)
+  consolidate_classes(original_line, classify_decisions(category_parsing(parse_line_elements(original_line), jobs, ld_cache)))
 end
 
 ## Turns list of classes into a merged record
@@ -207,7 +215,7 @@ def normalize_synonyms(text_string)
 end
 
 ## Primary decision tree function
-def category_parsing(ordered_array_of_tokens, jobs)
+def category_parsing(ordered_array_of_tokens, jobs, ld_cache)
   decisions = ordered_array_of_tokens.each_with_index.map { |token, index| {:token => token, :index => index, :votes => []} }
 
   ordered_array_of_tokens.each_with_index do |token, index|
@@ -234,7 +242,7 @@ def category_parsing(ordered_array_of_tokens, jobs)
           decisions[index][:votes] << {:name_component => 1.0}
         end
       end ## end (first token)
-      if ld_probably_job?(token, jobs, 2)
+      if ld_probably_job?(token, jobs, 2, ld_cache)
         decisions[index][:votes] << {:job_component => 1.0}
       else
         decisions[index][:votes] << {:job_component => -1.0}
@@ -307,8 +315,8 @@ def guess_abbreviation(token)
 end
 
 ## Note: good threshold is ~2?
-def ld_probably_job?(token, jobs, threshold)
-  match_report = closest_match(token, jobs)
+def ld_probably_job?(token, jobs, threshold, levenshteyn_cache)
+  match_report = closest_match(token, jobs, levenshteyn_cache)
   return match_report.keys[0] <= threshold
 end
 
@@ -342,7 +350,10 @@ def parse_eval_csv(list_of_parse_pairs, path)
 end
 
 ## Find closest matching token from a library (using Levenshtein distance)
-def closest_match(token, library)
+def closest_match(token, library, cache)
+  if cache.has_key?(token)
+    return cache[token]
+  end
   closest_tokens = []
   closest_token_score = 999
   library.each do |entity|
@@ -354,6 +365,7 @@ def closest_match(token, library)
       closest_tokens << entity
     end
   end
+  cache[token] = {closest_token_score => closest_tokens}
   {closest_token_score => closest_tokens}
 end
 
