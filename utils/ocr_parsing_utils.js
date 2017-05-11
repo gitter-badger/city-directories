@@ -72,13 +72,20 @@ class TokenInterpret {
     return !/^\S*(\s)+\S*$/.test(token)
   }
   static is_short(token) {
-    return (token.length < 4)
+    return (token.length < 2)
   }
   static could_be_abbreviation(token, index) {
     return (token.length == 1 && index > 0)
   }
   static probably_job(token) {
     return true
+  }
+  static percent_uppercase(token) {
+    return token.replace(/ /g, '').split('').map((char) => {
+      return char.toUpperCase() == char && isNaN(char)
+    }).reduce((acc, val) => {
+      return acc + (!!val ? 1 : 0)
+    }, 0) / token.replace(/ /g, '').length
   }
 }
 
@@ -99,6 +106,9 @@ function tokenize(line) {
   t3 = []
   t2.forEach(function(token) {
     t3 = t3.concat(jitter_split(token));
+  })
+  t3 = t3.filter((elem) => {
+    return elem.length > 0
   })
   return t3;
 }
@@ -126,45 +136,40 @@ function category_vote(ordered_token_array) {
   }));
   ordered_token_array.forEach(function(token, i) {
     if (TokenInterpret.is_short(token)) {
-      if (TokenInterpret.contains_numbers(token)) {
-        decisions[i]['votes'].push({
-          'address_component': 1.0
-        })
-      } else if (TokenInterpret.matches_cardinal_dir(token)) {
-        decisions[i]['votes'].push({
-          'address_component': 1.0
-        })
-      } else {
-        decisions[i]['votes'].push({
-          'predicate': 1.0
-        })
-      }
-    } else {
-      // Not short
-      if (TokenInterpret.contains_numbers(token)) {
-        decisions[i]['votes'].push({
-          'address_component': 2.0
-        })
-      }
-      if (i == 0) {
+      decisions[i]['votes'].push({
+        'predicate': 1.9
+      })
+    }
+    // Not short
+    if (TokenInterpret.contains_numbers(token)) {
+      decisions[i]['votes'].push({
+        'address_component': 2.0
+      })
+    }
+    if (i == 0) {
+      decisions[i]['votes'].push({
+        'name_component': 1.0
+      })
+      if (!TokenInterpret.contains_numbers(token)) {
         decisions[i]['votes'].push({
           'name_component': 1.0
         })
-        if (!TokenInterpret.contains_numbers(token)) {
-          decisions[i]['votes'].push({
-            'name_component': 1.0
-          })
-        }
-      } // End first token
-      decisions[i]['votes'].push({
-        'job_component': job_probability_score(token, job_idx)
-      })
-      if (TokenInterpret.no_white_space(token)) {
-        decisions[i]['votes'].push({
-          'address_component': 0.5
-        })
       }
+    } // End first token
+    if (token.length > 2 && TokenInterpret.percent_uppercase(token) > 0.5) {
+      decisions[i]['votes'].push({
+        'name_component': 2.0
+      })
     }
+    decisions[i]['votes'].push({
+      'job_component': job_probability_score(token, job_idx)
+    })
+    if (TokenInterpret.no_white_space(token)) {
+      decisions[i]['votes'].push({
+        'address_component': 0.5
+      })
+    }
+
   })
   return decisions;
 }
@@ -222,6 +227,17 @@ function recount_votes(token_decision_object) {
   return modified_entry;
 }
 
+function debug_line(line) {
+  return {
+    'original_line': line,
+    'tokenized': tokenize(line),
+    'category_vote': category_vote(tokenize(line)),
+    'most_likely_class': most_likely_class(category_vote(tokenize(line))),
+    'semantic_tokenize': semantic_tokenize(line),
+    'final_record': create_labeled_record(line),
+  }
+}
+
 function semantic_tokenize(line) {
   return winner_take_all(most_likely_class(category_vote(tokenize(line))))
 }
@@ -270,79 +286,108 @@ function consolidate_features(all_decisions) {
   all_decisions.forEach((token, index) => {
     parsed_class = token['winning_class'][0]
     token_value = token['token']
+    /*token_value = token['token']
     if (index == 0 && parsed_class == 'name_component') {
-      record['subject'].push({
-        'value': token_value,
-        'type': 'primary'
-      })
-    } else {
-      switch (parsed_class) {
-        case 'job_component':
-          if (!record['subject'].length == 0) {
-            record['subject'][0]['occupation'] = token_value;
-          }
-          break;
-        case 'predicate':
-          switch (token_value) {
-            case 'wid':
-              if (!record['subject'].length == 0) {
-                record['subject'][0]['occupation'] = 'widow';
+
+    } else {*/
+    switch (parsed_class) {
+      case 'name_component':
+        mr = merge_if_directly_subsequent_is_alike(all_decisions, index, token['winning_class'][0])
+        if (mr) {
+          all_decisions[index + 1] = mr
+        } else {
+          record['subject'].push({
+            'value': token_value,
+            'type': 'primary'
+          })
+        }
+        break;
+      case 'job_component':
+        if (!record['subject'].length == 0) {
+          record['subject'][0]['occupation'] = token_value;
+        }
+        break;
+      case 'predicate':
+        switch (token_value) {
+          case 'wid':
+            if (!record['subject'].length == 0) {
+              record['subject'][0]['occupation'] = 'widow';
+            }
+            deceased_name = look_for_name_of_deceased(all_decisions, index)
+            if (deceased_name) {
+              record['subject'].push({
+                'value': deceased_name,
+                'type': 'deceased spouse of primary'
+              })
+            }
+            break;
+          case 'h':
+            modify_probability_of_subsequent(['job_component', 'name_component'], {
+              "address_component": 1.0
+            }, all_decisions, index)
+            attach_to_next(all_decisions, index, 'address_component', [{
+              'type': 'home'
+            }])
+            break;
+          case 'r':
+            modify_probability_of_subsequent(['job_component', 'name_component'], {
+              "address_component": 1.0
+            }, all_decisions, index)
+            attach_to_next(all_decisions, index, 'address_component', [{
+              'position': 'rear'
+            }])
+            break;
+          default:
+            // Now we want to see if the predicate is actually a part of a
+            // name –– e.g. 'A' is part of the name 'SMITH JOHN A'
+
+            // check if last token was parsed as a name; if so, add it to the name
+            if (all_decisions[index - 1]) {
+              if (all_decisions[index - 1]['winning_class'][0] == "name_component") {
+                if (record['subject'][0]) {
+                  record['subject'][0]['value'] = record['subject'][0]['value'] + " " + token_value
+                }
+              } else if (TokenInterpret.matches_cardinal_dir(token_value)) {
+                treat_token_as_address_component(token, all_decisions, index, record)
               }
-              deceased_name = look_for_name_of_deceased(all_decisions, index)
-              if (deceased_name) {
-                record['subject'].push({
-                  'value': deceased_name,
-                  'type': 'deceased spouse of primary'
-                })
-              }
-              break;
-            case 'h':
-              modify_probability_of_subsequent(['job_component', 'name_component'], {
-                "address_component": 1.0
-              }, all_decisions, index)
-              attach_to_next(all_decisions, index, 'address_component', [{
-                'type': 'home'
-              }])
-              break;
-            case 'r':
-              modify_probability_of_subsequent(['job_component', 'name_component'], {
-                "address_component": 1.0
-              }, all_decisions, index)
-              attach_to_next(all_decisions, index, 'address_component', [{
-                'position': 'rear'
-              }])
-              break;
-          }
-          break;
-        case 'address_component':
-          /* We check the confidence of the next token too,
-            and may merge it into the address as well */
-          subsequent_class = subsequent_is_not_confident(all_decisions, index)
-          if (subsequent_class == "job_component") {
-            all_decisions[index + 1]['winning_class'] = ['address_component', 1.0]
-          }
-          loc = {
-            'value': token_value
-          }
-          if (token['additional']) {
-            token['additional'].forEach((obj) => {
-              pair = Object.entries(obj)[0]
-              k = pair[0]
-              v = pair[1]
-              loc[k] = v
-            })
-          }
-          mr = merge_if_directly_subsequent_is_alike(all_decisions, index, parsed_class)
-          if (mr) {
-            all_decisions[index + 1] = mr
-          } else {
-            record['location'].push(loc)
-          }
-          break;
-      }
+            }
+            break;
+
+        }
+        break;
+      case 'address_component':
+        treat_token_as_address_component(token, all_decisions, index, record)
+        break;
     }
+
   })
   return record;
+}
+
+function treat_token_as_address_component(parsed_token, all_decisions, current_index, record) {
+  /* We check the confidence of the next token too,
+    and may merge it into the address as well */
+  subsequent_class = subsequent_is_not_confident(all_decisions, current_index)
+  if (subsequent_class == "job_component") {
+    all_decisions[current_index + 1]['winning_class'] = ['address_component', 1.0]
+  }
+  loc = {
+    'value': parsed_token['token']
+  }
+  if (parsed_token['additional']) {
+    parsed_token['additional'].forEach((obj) => {
+      pair = Object.entries(obj)[0]
+      k = pair[0]
+      v = pair[1]
+      loc[k] = v
+    })
+  }
+  mr = merge_if_directly_subsequent_is_alike(all_decisions, current_index, parsed_token['winning_class'][0])
+  if (mr) {
+    all_decisions[current_index + 1] = mr
+  } else {
+    record['location'].push(loc)
+  }
 }
 
 function merge_if_directly_subsequent_is_alike(decision_list, current_index, current_token_class) {
@@ -392,7 +437,21 @@ function look_for_name_of_deceased(list_of_classes, current_index) {
   return null;
 }
 
+all_records = []
+labeled_records = []
 
+outstream = fs.createWriteStream('/Users/stephen/Documents/nypl-directories/1854-55/interpreted.ndjson')
+
+H(fs.createReadStream('/Users/stephen/Documents/nypl-directories/1854-55/lines.ndjson')).split().compact().map(JSON.parse).map((line) => {
+  return JSON.stringify([line, create_labeled_record(line['text'])])
+}).intersperse("\n").pipe(outstream)
+
+H(fs.createReadStream('/Users/stephen/Documents/nypl-directories/1854-55/lines.ndjson')).split().compact().map(JSON.parse).each((line) => {
+
+
+  //all_records.push(line)
+  //labeled_records.push([line, create_labeled_record(line['text'])])
+})
 /*
 var output = fs.createWriteStream('/Users/stephen/Documents/nypl-directories/1854-55/stream_out.ndjson')
 var dest = H(fs.createWriteStream('/Users/stephen/Documents/nypl-directories/1854-55/stream_out.ndjson'))
