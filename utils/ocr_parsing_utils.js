@@ -355,6 +355,7 @@ function consolidate_features(all_decisions) {
                   record['subject'][0]['value'] = record['subject'][0]['value'] + " " + token_value
                 }
               } else if (TokenInterpret.matches_cardinal_dir(token_value)) {
+                console.log("treating as address: " + token_value)
                 treat_token_as_address_component(token, all_decisions, index, record)
               }
             }
@@ -389,7 +390,7 @@ function treat_token_as_address_component(parsed_token, all_decisions, current_i
       loc[k] = v
     })
   }
-  mr = merge_if_directly_subsequent_is_alike(all_decisions, current_index, parsed_token['winning_class'][0])
+  mr = merge_if_directly_subsequent_is_alike(all_decisions, current_index, 'address_component')
   if (mr) {
     all_decisions[current_index + 1] = mr
   } else {
