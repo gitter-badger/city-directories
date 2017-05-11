@@ -87,6 +87,9 @@ class TokenInterpret {
       return acc + (!!val ? 1 : 0)
     }, 0) / token.replace(/ /g, '').length
   }
+  static is_known_predicate(token) {
+    return /^(wid|h|r).?$/i.test(token)
+  }
 }
 
 class InterpretedLine {
@@ -140,7 +143,11 @@ function category_vote(ordered_token_array) {
         'predicate': 1.9
       })
     }
-    // Not short
+    if (TokenInterpret.is_known_predicate(token)) {
+      decisions[i]['votes'].push({
+        'predicate': 1.9
+      })
+    }
     if (TokenInterpret.contains_numbers(token)) {
       decisions[i]['votes'].push({
         'address_component': 2.0
@@ -426,9 +433,9 @@ function attach_to_next(class_list, current_index, match_class, attributes) {
 }
 
 function look_for_name_of_deceased(list_of_classes, current_index) {
-  if (current_index + 1 < list_of_classes.count) {
+  if (current_index + 1 < list_of_classes.length) {
     next_class = list_of_classes[current_index + 1]
-    if (next_class['winning_class'][0] == 'name_component' || ['winning_class'][1] <= 0.5) {
+    if (next_class['winning_class'][0] == 'name_component' || next_class['winning_class'][1] <= 0.5) {
       // we check if the next class is either a name_component, or had a low confidence
       next_class['winning_class'][0] = 'already_considered'
       return next_class['token']
@@ -442,14 +449,15 @@ labeled_records = []
 
 outstream = fs.createWriteStream('/Users/stephen/Documents/nypl-directories/1854-55/interpreted.ndjson')
 
+/*
 H(fs.createReadStream('/Users/stephen/Documents/nypl-directories/1854-55/lines.ndjson')).split().compact().map(JSON.parse).map((line) => {
   return JSON.stringify([line, create_labeled_record(line['text'])])
 }).intersperse("\n").pipe(outstream)
-
+*/
 H(fs.createReadStream('/Users/stephen/Documents/nypl-directories/1854-55/lines.ndjson')).split().compact().map(JSON.parse).each((line) => {
 
 
-  //all_records.push(line)
+  all_records.push(line)
   //labeled_records.push([line, create_labeled_record(line['text'])])
 })
 /*
