@@ -43,7 +43,7 @@ Extract unicharset file. In one line:
 
 Create the ```font_properties``` file as per [guidelines here](https://github.com/tesseract-ocr/tesseract/wiki/Training-Tesseract#the-font_properties-file) with, for example, two lines, one for the standard font and one for the italic font. Make sure the font name listed in the file is dir1849, dir1849i, etc. to match the font name in the box/tif files. Enter the appropriate 1/0 for font type.
 
-Perform the shapeclustering, mftraining, and cntraining steps on all files, in one line::
+Perform the shapeclustering, mftraining, and cntraining steps on all files, in one line:
 
 ```shapeclustering -F font_properties -U unicharset eng2.dir1849.exp0.tr eng2.dir1849i.exp0.tr```
 
