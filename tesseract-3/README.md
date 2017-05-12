@@ -85,7 +85,7 @@ For each page we preprocess the images with ImageMagick before applying Tesserac
 
 Lastly, Tesseract using both in-built (eng) and new patterns (eng2):
 
-```tesseract input-file.tif output-file.tif -l eng+eng2 hocr whitelist```
+```tesseract input-file.tif output-file.hocr -l eng+eng2 hocr whitelist```
 
 Done.
 
