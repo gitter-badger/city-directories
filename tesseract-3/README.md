@@ -15,7 +15,7 @@ To make box/tif pairs for a new English-language font for the 1849 directory, no
 
 ```tesseract eng2.dir1849.exp0.tif eng2.dir1849.exp0 nobatch box.train```
 
-And for a planned italics-only example:
+And for a planned italics-only example (add an i to 1849):
 
 ```tesseract eng2.dir1849i.exp0.tif eng2.dir1849i.exp0 nobatch box.train```
 
@@ -24,6 +24,7 @@ Run this for every page wanted for training data, changing the exp integer for e
 ```tesseract eng2.dir1849.exp1.tif eng2.dir1849i.exp1 nobatch box.train 
 tesseract eng2.dir1849.exp2.tif eng2.dir1849.exp2 nobatch box.train 
 tesseract eng2.dir1849i.exp1.tif eng2.dir1849i.exp1 nobatch box.train
+...
 ```
 Next, correct the generated .box files using this Python utility script. Delete any lines in the italics training file that are not italics.
 
@@ -34,6 +35,7 @@ Run this line again for every box/tif pair to generate the .tr files:
 ```tesseract eng2.dir1849.exp0.tif eng2.dir1849.exp0 nobatch box.train  
 tesseract eng2.dir1849.exp1.tif eng2.dir1849.exp1 nobatch box.train  
 tesseract eng2.dir1849i.exp0.tif eng2.dir1849i.exp0 nobatch box.train
+...
 ```
 etc.
 
