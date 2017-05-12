@@ -1,11 +1,25 @@
-# Tesseract 3 Details: Combining Training + In-Built Patterns
+# OCR with Tesseract 3.5
+
+## Required
 
 Install Tesseract v.3.05 and ImageMagick
 
 ```brew install tesseract```
 ```brew install imagemagick```
 
-## Building Training Data
+## Quick Scripts
+
+To preprocess the folder of .tif directory pages:
+
+```python im-processor.py path-to-ImageMagick-textcleaner-script path-to-images/ path-to-output-parent-folder/ output-folder/```
+
+To run Tesseract 3.5 on the processed images:
+
+```python directory-tess3.py path-to-images/ path-to-output-parent-folder/ output-folder/```
+
+## Details: Combining Training + In-Built Patterns
+
+### Building Training Data
 
 The process below utilizes a combination of Tesseract's standard English training data and additional fonts extracted from city directories.
 
@@ -28,7 +42,7 @@ tesseract eng2.dir1849i.exp1.tif eng2.dir1849i.exp1 nobatch box.train
 ```
 Next, correct the generated .box files using this Python utility script. Delete any lines in the italics training file that are not italics.
 
-## Training
+### Training
 
 Run this line again for every box/tif pair to generate the .tr files:
 
@@ -77,7 +91,7 @@ In that same ```tessdata``` folder, we want to add a whitelist to the config fol
 
 ```tessedit_char_whitelist abcdefghijklmnopqrstuvwxyzABDCDEFGHIJKLMNOPQRSTUVWXYZ*&'"().,½-0123456789```
 
-## Training
+### Running the OCR
 
 For each page we preprocess the images with ImageMagick before applying Tesseract. For every file, with the ImageMagick scrip [textcleaner](http://www.fmwconcepts.com/imagemagick/textcleaner/index.php) installed in a directory:
 
