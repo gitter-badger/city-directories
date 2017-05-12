@@ -60,10 +60,10 @@ wordlist2dawg words_list eng2.word-dawg eng2.unicharset
 Make sure this dawg file is in same directory with .tr and unicharset files. Prefix inttemp, normproto, pffmtable, and shapetable with language name:
 
 ```
-mv inttemp tla.inttemp
-mv normproto tla.normproto
-mv pffmtable tla.pffmtable
-mv shapetable tla.shapetable
+mv inttemp eng2.inttemp
+mv normproto eng2.normproto
+mv pffmtable eng2.pffmtable
+mv shapetable eng2.shapetable
 ```
 Lastly, package everything up into a traineddata file:
 
@@ -81,7 +81,7 @@ For each page we preprocess the images with ImageMagick before applying Tesserac
 
 ```bash path-to/textcleaner -g -e none -f 25 -o 10 -T input.tif output-processed.tif```
 
-Lastly, Tesseract:
+Lastly, Tesseract using both in-built (eng) and new patterns (eng2):
 
 ```tesseract input-file.tif output-file.tif -l eng+eng2 hocr whitelist```
 
