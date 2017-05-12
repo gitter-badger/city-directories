@@ -1,10 +1,9 @@
-# Tesseract 3
+# Tesseract 3 Details: Combining Training + In-Built Patterns
 
 Install Tesseract v.3.05 and ImageMagick
 
-```brew install tesseract \
-brew install imagemagick \
-```
+```brew install tesseract```
+```brew install imagemagick```
 
 ## Building Training Data
 
@@ -20,10 +19,10 @@ And for a planned italics-only example:
 
 ```tesseract eng2.dir1849i.exp0.tif eng2.dir1849i.exp0 nobatch box.train```
 
-Do this for every page wanted for training data, changing the exp integer for each separate pair, i.e.:
+Run this for every page wanted for training data, changing the exp integer for each separate pair, i.e.:
 
-```tesseract eng2.dir1849.exp1.tif eng2.dir1849i.exp1 nobatch box.train \
-tesseract eng2.dir1849.exp2.tif eng2.dir1849.exp2 nobatch box.train
+```tesseract eng2.dir1849.exp1.tif eng2.dir1849i.exp1 nobatch box.train 
+tesseract eng2.dir1849.exp2.tif eng2.dir1849.exp2 nobatch box.train 
 tesseract eng2.dir1849i.exp1.tif eng2.dir1849i.exp1 nobatch box.train
 ```
 Next, correct the generated .box files using this Python utility script. Delete any lines in the italics training file that are not italics.
@@ -32,30 +31,28 @@ Next, correct the generated .box files using this Python utility script. Delete 
 
 Run this line again for every box/tif pair to generate the .tr files:
 
-```tesseract eng2.dir1849.exp0.tif eng2.dir1849.exp0 nobatch box.train  \
-tesseract eng2.dir1849.exp1.tif eng2.dir1849.exp1 nobatch box.train  \
+```tesseract eng2.dir1849.exp0.tif eng2.dir1849.exp0 nobatch box.train  
+tesseract eng2.dir1849.exp1.tif eng2.dir1849.exp1 nobatch box.train  
 tesseract eng2.dir1849i.exp0.tif eng2.dir1849i.exp0 nobatch box.train
 ```
 etc.
 
 Extract unicharset file. In one line:
 
-```unicharset_extractor eng2.dir1849.exp0.box eng2.dir1849.exp1.box eng2.dir1849.exp2.box eng2.dir1849i.exp0 eng2.dir1849i.exp1```
+```unicharset_extractor eng2.dir1849.exp0.box  eng2.dir1849.exp1.box  eng2.dir1849.exp2.box  eng2.dir1849i.exp0  eng2.dir1849i.exp1```
 
 Create the ```font_properties``` file as per [guidelines here](https://github.com/tesseract-ocr/tesseract/wiki/Training-Tesseract#the-font_properties-file) with, for example, two lines, one for the standard font and one for the italic font. Make sure the font name listed in the file is dir1849, dir1849i, etc. to match the font name in the box/tif files. Enter the appropriate 1/0 for font type.
 
 Perform the shapeclustering, mftraining, and cntraining steps on all files, in one line::
 
-```shapeclustering -F font_properties -U unicharset eng2.dir1849.exp0.tr eng2.dir1849i.exp0.tr
-```
-etc.
+```shapeclustering -F font_properties -U unicharset eng2.dir1849.exp0.tr eng2.dir1849i.exp0.tr```
 
-```mftraining -F font_properties -U unicharset -O eng2.unicharset eng2.dir1849.exp0.tr eng2.dir1849i.exp0.tr
-```
+```mftraining -F font_properties -U unicharset -O eng2.unicharset eng2.dir1849.exp0.tr eng2.dir1849i.exp0.tr```
 
-```cntraining eng2.dir1849.exp0.tr eng2.dir1849i.exp0.tr
-```
-At this stage a word-dawg list (i.e. a dictionary of useful words can be made). Prep the word list (similarly, for frequent words, a frequent word list) as a .txt file, each word on one line, with \n line ending. Run, as per Tesseract tutorial:
+```cntraining eng2.dir1849.exp0.tr eng2.dir1849i.exp0.tr```
+
+
+At this stage a ```word-dawg``` list (i.e. a dictionary of useful words can be made). Prep the word list (similarly, for frequent words, a frequent word list) as a .txt file, each word on one line, with \n line ending. Run, as per Tesseract tutorial:
 
 ```wordlist2dawg frequent_words_list eng2.freq-dawg eng2.unicharset
 wordlist2dawg words_list eng2.word-dawg eng2.unicharset
@@ -74,11 +71,13 @@ Lastly, package everything up into a traineddata file:
 
 Place this file in Tesseract's ```tessdata``` folder, located at ```/usr/local/share/tessdata/```
 
-In that same ```tessdata``` folder, we want to add a whitelist to the config folder with a list of characters to restrict the OCR recognition to. Create a textfile called ```whitelist``` and add this line:
+In that same ```tessdata``` folder, we want to add a whitelist to the config folder with a list of city-directory-specific characters to restrict the OCR recognition to. Create a textfile called ```whitelist``` and add this line:
 
 ```tessedit_char_whitelist abcdefghijklmnopqrstuvwxyzABDCDEFGHIJKLMNOPQRSTUVWXYZ*&'"().,½-0123456789```
 
-Lastly, we preprocess the images with ImageMagick before applying Tesseract. For every file, with the ImageMagick scrip [textcleaner](http://www.fmwconcepts.com/imagemagick/textcleaner/index.php) installed in a directory:
+## Training
+
+For each page we preprocess the images with ImageMagick before applying Tesseract. For every file, with the ImageMagick scrip [textcleaner](http://www.fmwconcepts.com/imagemagick/textcleaner/index.php) installed in a directory:
 
 ```bash path-to/textcleaner -g -e none -f 25 -o 10 -T input.tif output-processed.tif```
 
