@@ -9,6 +9,12 @@ Install Tesseract v.3.05 and ImageMagick
 
 ## Quick Scripts
 
+To pack up an create a traineddata file from a folder containing box/tif training files and a wordlist for training dictionary:
+
+```python training-packer.py path-to-folder word-list-file.txt```
+
+Place the resulting traineddata file (located in same folder as box/tif pairs, in Tesseract's ```/usr/local/share/tessdata/```
+
 To preprocess the folder of .tif directory pages:
 
 ```python im-processor.py path-to-ImageMagick-textcleaner-script path-to-images/ path-to-output-parent-folder/ output-folder/```
