@@ -61,7 +61,7 @@ etc.
 
 Extract unicharset file. In one line:
 
-```unicharset_extractor eng2.dir1849.exp0.box  eng2.dir1849.exp1.box  eng2.dir1849.exp2.box  eng2.dir1849i.exp0  eng2.dir1849i.exp1```
+```unicharset_extractor eng2.dir1849.exp0.box  eng2.dir1849.exp1.box  eng2.dir1849.exp2.box  eng2.dir1849i.exp0.box  eng2.dir1849i.exp1.box```
 
 Create the ```font_properties``` file as per [guidelines here](https://github.com/tesseract-ocr/tesseract/wiki/Training-Tesseract#the-font_properties-file) with, for example, two lines, one for the standard font and one for the italic font. Make sure the font name listed in the file is dir1849, dir1849i, etc. to match the font name in the box/tif files. Enter the appropriate 1/0 for font type.
 
