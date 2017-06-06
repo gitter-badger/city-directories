@@ -4,11 +4,10 @@ import os, sys
 import time
 
 cleanerpath = sys.argv[1].replace('"','').replace("'","")
+	#Input image folder name:
 imagefolder = sys.argv[2].replace('"','').replace("'","").rstrip('/') + '/'
-    #Parent folder for output folder:
-outparent = sys.argv[3].replace('"','').replace("'","").rstrip('/') + '/'
     #Output folder name:
-outfolder = sys.argv[4].replace('"','').replace("'","").rstrip('/') + '/'
+outfolder = sys.argv[3].replace('"','').replace("'","").rstrip('/') + '/'
 filelist = [files for root, dirs, files in os.walk(imagefolder)][0]
 
 start = time.time()
@@ -21,13 +20,19 @@ def runIM(file, out):
     except:
         print('Preprocessing failed on ', file)
             
-if not os.path.exists(outparent + outfolder):
-    os.makedirs(outparent + outfolder)            
+if not os.path.exists(outfolder):
+    os.makedirs(outfolder)            
 
 
-for tif in filelist:
-    if tif[0] != '.':
-        runIM(tif, outparent + outfolder)
+for f in filelist:
+    if f[0] != '.':
+    	continue
+    if f.split('.')[1] == "jpeg" or file.split('.')[1] == "jpg":
+    	command = "convert " + f + " " + f.split('.')[0] + ".tif"
+    	tif = f.split('.')[0] + ".tif"
+    	runIM(tif, outfolder) 
+    else:
+    	runIM(f, outfolder)
 
 end = time.time()
     

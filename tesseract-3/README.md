@@ -17,7 +17,9 @@ Place the resulting traineddata file (located in same folder as box/tif pairs), 
 
 To preprocess the folder of .tif directory pages:
 
-```python im-processor.py path-to-ImageMagick-textcleaner-script path-to-images/ path-to-output-parent-folder/ output-folder/```
+```python im-processor.py path-to-ImageMagick-textcleaner-script path-to-images/ path-to-output-folder/```
+
+If the folder contains .jpeg or .jpg rather than .tif, ```im-processor.py``` will use ImageMagick to convert them to tifs first before preprocessing them.
 
 To run Tesseract 3.5 on the processed images:
 
