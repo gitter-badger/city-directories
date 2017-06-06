@@ -4,27 +4,27 @@ import os, sys
 import time
 
 imagefolder = sys.argv[1].replace('"','').replace("'","").rstrip('/') + '/'
-    #Parent folder for output folder:
-outparent = sys.argv[2].replace('"','').replace("'","").rstrip('/') + '/'
     #Output folder name:
-outfolder = sys.argv[3].replace('"','').replace("'","").rstrip('/') + '/'
+outfolder = sys.argv[2].replace('"','').replace("'","").rstrip('/') + '/'
+	#Training data ISO language name (e.g., eng1):
+isolang = sys.argv[3]
 filelist = [files for root, dirs, files in os.walk(imagefolder)][0]
 
 start = time.time()
 
 def runTess(file, out):
     try:
-        command = ' '.join(["tesseract", "'"+imagefolder + file+"'", "'"+out + file.replace('.tif', ''), "-l", "eng+eng7", "hocr", "whitelist"])
+        command = ' '.join(["tesseract", "'"+imagefolder + file+"'", "'"+out + file.replace('.tif', ''), "-l", "eng+" isolang, " hocr", "whitelist"])
         os.system(command)
     except:
         print('Processing failed on ', file)
             
-if not os.path.exists(outparent + outfolder):
-    os.makedirs(outparent + outfolder)            
+if not os.path.exists(outfolder):
+    os.makedirs(outfolder)            
 
 for tif in filelist[1:]:
-    if tif[0] != '.':
-        runTess(tif, outparent + outfolder)
+    if tif[0] != '.' and tif.split('.')[1] == "tif":
+        runTess(tif, outfolder)
 
 end = time.time()
     

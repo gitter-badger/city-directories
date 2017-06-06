@@ -23,7 +23,9 @@ If the folder contains .jpeg or .jpg rather than .tif, ```im-processor.py``` wil
 
 To run Tesseract 3.5 on the processed images:
 
-```python directory-tess3.py path-to-images/ path-to-output-parent-folder/ output-folder/```
+```python directory-tess3.py path-to-images/ path-to-output-folder/ trainingdata-iso-filename```
+
+The ```trainingdata-iso-filename``` will be the name of the trainning data language file (e.g. a variation on "eng") that has been placed in the tessdata folder (see below).
 
 ## Details: Combining Training + In-Built Patterns
 
