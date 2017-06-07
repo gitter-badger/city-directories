@@ -26,12 +26,6 @@ if not os.path.exists(outfolder):
 
 for f in filelist:
     if f[0] != '.':
-    	continue
-    if f.split('.')[1] == "jpeg" or file.split('.')[1] == "jpg":
-    	command = "convert " + f + " " + f.split('.')[0] + ".tif"
-    	tif = f.split('.')[0] + ".tif"
-    	runIM(tif, outfolder) 
-    else:
     	runIM(f, outfolder)
 
 end = time.time()
