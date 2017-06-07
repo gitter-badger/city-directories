@@ -1,4 +1,4 @@
-# OCR with Tesseract 3.5
+# OCR with Tesseract 3.05
 
 ## Required
 
@@ -103,7 +103,7 @@ In that same ```tessdata``` folder, we want to add a whitelist to the config fol
 
 ### Running the OCR
 
-For each page we preprocess the images with ImageMagick before applying Tesseract. For every file, with the ImageMagick scrip [textcleaner](http://www.fmwconcepts.com/imagemagick/textcleaner/index.php) installed in a directory:
+For each page we preprocess the images with ImageMagick before applying Tesseract. For every file, with the ImageMagick script [textcleaner](http://www.fmwconcepts.com/imagemagick/textcleaner/index.php) installed in a directory:
 
 ```bash path-to/textcleaner -g -e none -f 25 -o 10 -T input.tif output-processed.tif```
 
