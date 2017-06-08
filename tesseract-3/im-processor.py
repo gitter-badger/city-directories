@@ -16,7 +16,6 @@ def runIM(file, out):
     try:
         command = ' '.join(["bash", cleanerpath, "-g", "-e none", "-f 25", "-o 10", "-T -b white", 
                    "'"+imagefolder + file+"'", out.rstrip("'") + file.replace(".tif","") + "-processed.tif'"])
-        print(command)
         os.system(command)
     except:
         print('Preprocessing failed on ', file)
