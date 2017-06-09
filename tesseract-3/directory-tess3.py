@@ -14,7 +14,8 @@ start = time.time()
 
 def runTess(file, out):
     try:
-        command = ' '.join(["tesseract", "'"+imagefolder + file+"'", "'"+out + file.replace('.tif', ''), "-l", "eng+" isolang, " hocr", "whitelist"])
+        command = ' '.join(["tesseract", "'"+imagefolder + file+"'", "'"+out + file.replace(".tif", "'"), "-l", "eng+" + isolang, " hocr", "whitelist"])
+        #print(command)
         os.system(command)
     except:
         print('Processing failed on ', file)
@@ -22,8 +23,8 @@ def runTess(file, out):
 if not os.path.exists(outfolder):
     os.makedirs(outfolder)            
 
-for tif in filelist[1:]:
-    if tif[0] != '.' and tif.split('.')[1] == "tif":
+for tif in filelist:
+    if tif[0] != '.' and tif.split('.')[-1] == "tif":
         runTess(tif, outfolder)
 
 end = time.time()
