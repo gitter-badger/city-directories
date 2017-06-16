@@ -18,7 +18,7 @@ if not os.path.exists(outfolder):
 for f in filelist:
     if f[0] != '.':
     	command = "convert '" + imagefolder + f + "' " + outfolder.rstrip("'") + f.replace('.jpeg', '.tif') + "'"
-    	#print(command)
+    	print("Converting page", f)
     	os.system(command) 
 
 end = time.time()
