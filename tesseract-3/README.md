@@ -37,17 +37,17 @@ Building the training files can be done by following the tutorial [here](http://
 
 To make box/tif pairs for a new English-language font for the 1849 directory, non-italic fonts only:
 
-```tesseract eng2.dir1849.exp0.tif eng2.dir1849.exp0 nobatch box.train```
+```tesseract eng2.dir1849.exp0.tif eng2.dir1849.exp0 batch.nochop makebox```
 
 And for a planned italics-only example (add an i to 1849):
 
-```tesseract eng2.dir1849i.exp0.tif eng2.dir1849i.exp0 nobatch box.train```
+```tesseract eng2.dir1849i.exp0.tif eng2.dir1849i.exp0 batch.nochop makebox```
 
 Run this for every page wanted for training data, changing the exp integer for each separate pair, i.e.:
 
-```tesseract eng2.dir1849.exp1.tif eng2.dir1849i.exp1 nobatch box.train 
-tesseract eng2.dir1849.exp2.tif eng2.dir1849.exp2 nobatch box.train 
-tesseract eng2.dir1849i.exp1.tif eng2.dir1849i.exp1 nobatch box.train
+```tesseract eng2.dir1849.exp1.tif eng2.dir1849i.exp1 batch.nochop makebox 
+tesseract eng2.dir1849.exp2.tif eng2.dir1849.exp2 batch.nochop makebox 
+tesseract eng2.dir1849i.exp1.tif eng2.dir1849i.exp1 batch.nochop makebox
 ...
 ```
 Next, correct the generated .box files using this Python utility script. Delete any lines in the italics training file that are not italics.
