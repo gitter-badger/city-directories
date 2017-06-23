@@ -40,8 +40,10 @@
 
 ## Anatomy of an hocr file name:
 
-00030.28.56749967.e10e9aa0-5291-0134-79ba-00505686a51c.processed.hocr
+1849.00030.28.56749967.e10e9aa0-5291-0134-79ba-00505686a51c.processed.hocr
 ------------
+
+**1849 ->** year of directory
 
 **00030 ->** page number of original print page
 
