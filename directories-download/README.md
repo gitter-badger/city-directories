@@ -1,12 +1,12 @@
 # Directory Download Tracking
 
-| Directory Year  | Type  |  URL | UUID | Image Ranges | Sample Page | Recommended training data year |
+| Directory Year  | Type  |  URL | UUID | ImageRange:PageRange Map | Sample Page | Recommended training data year |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 1786     | Franks/Kollock |  <a href="https://digitalcollections.nypl.org/items/746a3160-d5c9-0134-e994-00505686d14e">permalink</a> | b14662b0-81a8-0134-2a18-00505686a51c | ?? | ?? | ?? |
 | 1796     | Low/Buell/Bull |  <a href="https://digitalcollections.nypl.org/items/06bd1de0-d75d-0134-7fcb-00505686d14e">permalink</a> | 2dfca400-81bd-0134-7dee-00505686a51c | ?? | ?? | ?? |
-| 1849/50  | Doggett's  |  <a href="https://digitalcollections.nypl.org/items/de9d5570-5291-0134-74fc-00505686a51c">permalink</a> | 4ad95a70-317a-0134-d1af-00505686a51c | 19-472 | <a href="https://nyu.box.com/s/2ew8c9tfai2skkihhrvfw86wcfs2875d">Page 22</a> | 1849 |
-| 1850/51  | Doggett's |  <a href="https://digitalcollections.nypl.org/items/7b3fbb00-5293-0134-b386-00505686a51c">permalink</a>  | 4adf9ec0-317a-0134-03ad-00505686a51c | ?? | ?? | 1849 |
-| 1851/52  | Doggett's |  <a href="https://digitalcollections.nypl.org/items/023b8530-5295-0134-4c9c-00505686a51c">permalink</a>  | 4ae3cb40-317a-0134-489d-00505686a51c | ?? | ?? | 1849 |
+| 1849/50  | Doggett's  |  <a href="https://digitalcollections.nypl.org/items/de9d5570-5291-0134-74fc-00505686a51c">permalink</a> | 4ad95a70-317a-0134-d1af-00505686a51c | 19-206:21-208;209-268:209-268;271-300:269-298;303-472:299-468 | <a href="https://digitalcollections.nypl.org/items/de9d5570-5291-0134-74fc-00505686a51c#/?uuid=e0580250-5291-0134-d311-00505686a51c">Page 22</a> | 1849 |
+| 1850/51  | Doggett's |  <a href="https://digitalcollections.nypl.org/items/7b3fbb00-5293-0134-b386-00505686a51c">permalink</a>  | 4adf9ec0-317a-0134-03ad-00505686a51c | 21-56:21-56;59-354:57-352;357-362;353-358;365-566;359-560 | <a href="https://digitalcollections.nypl.org/items/7b3fbb00-5293-0134-b386-00505686a51c#/?uuid=80e75270-5293-0134-46bc-00505686a51c">Page 60</a> | 1849 |
+| 1851/52  | Doggett's |  <a href="https://digitalcollections.nypl.org/items/023b8530-5295-0134-4c9c-00505686a51c">permalink</a>  | 4ae3cb40-317a-0134-489d-00505686a51c | 29-68:21-60;71-268:61-258;271-390:259-378;393-398:379-384;401-448:385-432;451-608:433-590; | <a href="https://digitalcollections.nypl.org/items/023b8530-5295-0134-4c9c-00505686a51c#/?uuid=06a76800-5295-0134-116e-00505686a51c">Page 59</a> | 1849 |
 | 1852/53  | Trow/Wilson | <a href="https://digitalcollections.nypl.org/items/3f790190-5298-0134-517e-00505686a51c">permalink</a> | 4ae76b60-317a-0134-b849-00505686a51c  | ?? | ?? | 1849 |
 | 1853/54  | Trow/Wilson | <a href="https://digitalcollections.nypl.org/items/d8b8ac20-5299-0134-e59e-00505686a51c">permalink</a> | 4aea8af0-317a-0134-2393-00505686a51c | ?? | ?? | ?? |
 | 1854/55  | Trow/Wilson | <a href="https://digitalcollections.nypl.org/items/d73e7cd0-529b-0134-92d5-00505686a51c">permalink</a> | 4aed8a80-317a-0134-28a4-00505686a51c | ?? | ?? | ?? |
